@@ -5,6 +5,10 @@
 *   Autores:
 *       Luís Pereira (1161573)
 *       Jorge Azevedo (1160929)
+*
+*   Professores Orientadores:
+*       Alberto Sampaio
+*       David Pereira
 */
 
 #include <iostream>
