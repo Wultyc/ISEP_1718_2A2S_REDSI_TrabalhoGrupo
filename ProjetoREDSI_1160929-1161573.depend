@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1521667677 source:/home/gabriel/redsi_1160929-1161573/main.cpp
+	<iostream>
+
+1521798492 source:/home/gabriel/redsi_1160929-1161573/src/ui_utils.cpp
+	"ui_utils.h"
+
+1521798477 /home/gabriel/redsi_1160929-1161573/include/ui_utils.h
+	<iostream>
+	<string>
+	"TextTable.h"
+
+1473393345 /home/gabriel/redsi_1160929-1161573/include/TextTable.h
+	<iostream>
+	<map>
+	<iomanip>
+	<vector>
+	<string>
+
