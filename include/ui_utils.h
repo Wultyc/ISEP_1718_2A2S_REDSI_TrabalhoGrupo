@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include <string>
-#include "TextTable.h"
+#include "CppConsoleTable.h"
 
 using namespace std;
 
