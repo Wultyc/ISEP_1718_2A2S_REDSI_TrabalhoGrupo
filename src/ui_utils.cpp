@@ -1,4 +1,6 @@
 #include "ui_utils.h"
+#include<iostream>
+#include <string>
 
 ui_utils::ui_utils(){
     //ctor
@@ -14,7 +16,7 @@ ui_utils::~ui_utils(){
 
 
 string ui_utils::read(){
-    //lÃª algo
+    //lê algo
 }
 
 void ui_utils::print(){
@@ -27,7 +29,7 @@ void ui_utils::newpage(){
 }
 
 void ui_utils::newdiv(){
-    //nova divisÃ³ria
+    //nova divisória
 }
 
 int ui_utils::showMenu(){
@@ -47,11 +49,13 @@ string ui_utils::ask_question(){
 }
 
 bool ui_utils::yn_question(){
-    //imprime uma pergunta de sim ou NÃ£o
+    //imprime uma pergunta de sim ou Não
+    return true;
 }
 
 int ui_utils::opt_question(){
-    //imprime uma pergunta e apresenta um conjunto de opÃ§Ãµes possives de reposta
+    //imprime uma pergunta e apresenta um conjunto de opções possives de reposta
+    return 0;
 }
 
 string ui_utils::makeDivisor(){

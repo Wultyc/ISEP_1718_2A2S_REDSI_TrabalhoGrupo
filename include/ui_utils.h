@@ -1,9 +1,9 @@
-#ifndef UI_UTILS_H
-#define UI_UTILS_H
+//#ifndef UI_UTILS_H
+//#define UI_UTILS_H
 
 #include <iostream>
 #include <string>
-#include "TextTable.h"
+//#include "TextTable.h"
 
 class ui_utils
 {
@@ -37,4 +37,4 @@ class ui_utils
         string newpage;
 };
 
-#endif // UI_UTILS_H
+//#endif // UI_UTILS_H
