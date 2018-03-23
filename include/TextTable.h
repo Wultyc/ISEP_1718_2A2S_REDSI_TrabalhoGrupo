@@ -7,7 +7,7 @@
 class TextTable {
 
     public:
-    enum class Alignment { LEFT, RIGHT }; 
+    enum class Alignment { LEFT, RIGHT };
     typedef std::vector< std::string > Row;
     TextTable( char horizontal = '-', char vertical = '|', char corner = '+' ) :
         _horizontal( horizontal ),
@@ -44,7 +44,7 @@ class TextTable {
     void addRow( Iterator begin, Iterator end )
     {
         for( auto i = begin; i != end; ++i ) {
-           add( * i ); 
+           add( * i );
         }
         endOfRow();
     }

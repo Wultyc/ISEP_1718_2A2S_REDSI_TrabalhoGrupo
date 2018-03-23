@@ -1,22 +1,25 @@
-#include "ui_utils.h"
 #include<iostream>
 #include <string>
+#include "ui_utils.h"
+
+using namespace std;
 
 ui_utils::ui_utils(){
     //ctor
-    this.height = 25;
-    this.width = 80;
-    this.divisor = makeDivisor();
-    this.newpage = makeNewPage();
+    height = 25;
+    width = 80;
+    divisor = makeDivisor();
+    newpage = makeNewPage();
 }
 
-ui_utils::~ui_utils(){
+//ui_utils::~ui_utils(){
     //dtor
-}
+//}
 
 
 string ui_utils::read(){
     //lê algo
+    return "";
 }
 
 void ui_utils::print(){
@@ -24,16 +27,17 @@ void ui_utils::print(){
 }
 
 
-void ui_utils::newpage(){
+void ui_utils::newPage(){
     //nova pagina
 }
 
-void ui_utils::newdiv(){
+void ui_utils::newDiv(){
     //nova divisória
 }
 
 int ui_utils::showMenu(){
     //mostra o menu
+    return 0;
 }
 
 void ui_utils::showList(){
@@ -46,6 +50,7 @@ void ui_utils::selectFlist(){
 
 string ui_utils::ask_question(){
     //imprime umapergunta e espra a resposta
+    return "";
 }
 
 bool ui_utils::yn_question(){
@@ -62,7 +67,7 @@ string ui_utils::makeDivisor(){
     int i = 0;
     string r = "";
 
-    for(i = 0; i< this.width; i++){
+    for(i = 0; i< width; i++){
         r += "=";
     }
     return r;
@@ -72,7 +77,7 @@ string ui_utils::makeNewPage(){
     int i = 0;
     string r = "";
 
-    for(i = 0; i< this.height*2; i++){
+    for(i = 0; i< height*2; i++){
         r += "\n";
     }
     return r;

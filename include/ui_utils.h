@@ -1,22 +1,24 @@
-//#ifndef UI_UTILS_H
-//#define UI_UTILS_H
+#ifndef UI_UTILS_H
+#define UI_UTILS_H
 
 #include <iostream>
 #include <string>
-//#include "TextTable.h"
+#include "TextTable.h"
+
+using namespace std;
 
 class ui_utils
 {
     public:
         ui_utils();
-        virtual ~ui_utils();
+        //virtual ~ui_utils();
 
 
         string read();
         void print();
 
-        void newpage();
-        void newdiv();
+        void newPage();
+        void newDiv();
 
         int showMenu();
         void showList();
@@ -37,4 +39,4 @@ class ui_utils
         string newpage;
 };
 
-//#endif // UI_UTILS_H
+#endif // UI_UTILS_H
