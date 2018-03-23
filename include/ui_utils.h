@@ -1,7 +1,9 @@
 #ifndef UI_UTILS_H
 #define UI_UTILS_H
 
+#include <iostream>
 #include <string>
+#include "TextTable.h"
 
 class ui_utils
 {
@@ -22,6 +24,9 @@ class ui_utils
         string ask_question();
         bool yn_question();
         int opt_question();
+
+        string makeDivisor();
+        string makeNewPage();
 
     protected:
 

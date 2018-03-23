@@ -2,6 +2,10 @@
 
 ui_utils::ui_utils(){
     //ctor
+    this.height = 25;
+    this.width = 80;
+    this.divisor = makeDivisor();
+    this.newpage = makeNewPage();
 }
 
 ui_utils::~ui_utils(){
@@ -48,5 +52,25 @@ bool ui_utils::yn_question(){
 
 int ui_utils::opt_question(){
     //imprime uma pergunta e apresenta um conjunto de opções possives de reposta
+}
+
+string ui_utils::makeDivisor(){
+    int i = 0;
+    string r = "";
+
+    for(i = 0; i< this.width; i++){
+        r += "=";
+    }
+    return r;
+}
+
+string ui_utils::makeNewPage(){
+    int i = 0;
+    string r = "";
+
+    for(i = 0; i< this.height*2; i++){
+        r += "\n";
+    }
+    return r;
 }
 
