@@ -12,6 +12,8 @@
 */
 
 #include <iostream>
+#include <string>
+#include "ui_utils.h"
 
 using namespace std;
 
