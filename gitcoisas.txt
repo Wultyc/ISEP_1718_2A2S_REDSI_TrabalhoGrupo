@@ -1,0 +1,12 @@
+git clone https://luispereira09@bitbucket.org/1160929/redsi_1160929-1161573.git
+
+git pull - serve para descarregar atualizaçoes
+
+git add * - adiciona ao repositorio novas classes
+
+git commit -am "ola" - registar alteraçoes
+
+git push origin master - enviar para o servidor alteraçoes
+
+antes de um commit fazer um pull
+antes de fazer push fazer commit
