@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <string>
-#include "CppConsoleTable.h"
 
 using namespace std;
 

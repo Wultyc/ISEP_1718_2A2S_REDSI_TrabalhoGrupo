@@ -48,3 +48,102 @@
 	<vector>
 	<type_traits>
 
+1522863406 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\camara.cpp
+	"Camara.h"
+
+1522863406 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\camara.h
+
+1522863423 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\flash.cpp
+	"Flash.h"
+
+1522863423 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\flash.h
+
+1522863762 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\listacamara.cpp
+	"ListaCamara.h"
+
+1522863699 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\listacamara.h
+
+1522863779 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\listaflash.cpp
+	"ListaFlash.h"
+
+1522863779 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\listaflash.h
+
+1522863713 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\listaobjetivas.cpp
+	"ListaObjetivas.h"
+
+1522863713 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\listaobjetivas.h
+
+1523033238 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\listaprodutos.cpp
+	"ListaProdutos.h"
+
+1522863667 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\listaprodutos.h
+
+1522863685 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\listastock.cpp
+	"ListaStock.h"
+
+1522863685 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\listastock.h
+
+1522863722 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\listatripe.cpp
+	"ListaTripe.h"
+
+1522863722 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\listatripe.h
+
+1522863798 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\login.cpp
+	"Login.h"
+
+1522863798 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\login.h
+
+1522863382 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\loja.cpp
+	"Loja.h"
+
+1522863382 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\loja.h
+
+1522863413 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\objetiva.cpp
+	"Objetiva.h"
+
+1522863413 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\objetiva.h
+
+1522863389 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\pesquisa.cpp
+	"Pesquisa.h"
+
+1522863389 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\pesquisa.h
+
+1522863398 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\produto.cpp
+	"Produto.h"
+
+1522863398 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\produto.h
+
+1522863360 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\stock.cpp
+	"Stock.h"
+
+1522863360 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\stock.h
+
+1522863373 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\trabalhofotografico.cpp
+	"TrabalhoFotografico.h"
+
+1522863373 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\trabalhofotografico.h
+
+1522863455 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\tripe.cpp
+	"Tripe.h"
+
+1522863455 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\tripe.h
+
+1522863308 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\utilizador.cpp
+	"Utilizador.h"
+
+1522863308 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\utilizador.h
+
+1522863562 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\main.cpp
+	<iostream>
+	<string>
+	"ui_utils.h"
+
+1523033319 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\include\ui_utils.h
+	<iostream>
+	<string>
+
+1522863562 source:c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\src\ui_utils.cpp
+	<iostream>
+	<string>
+	"ui_utils.h"
+
