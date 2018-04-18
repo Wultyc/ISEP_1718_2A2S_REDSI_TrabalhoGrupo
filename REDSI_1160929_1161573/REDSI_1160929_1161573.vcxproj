@@ -145,10 +145,41 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Camara.h" />
+    <ClInclude Include="Flash.h" />
+    <ClInclude Include="ListaCamara.h" />
+    <ClInclude Include="ListaFlash.h" />
+    <ClInclude Include="ListaObjetivas.h" />
+    <ClInclude Include="ListaProdutos.h" />
+    <ClInclude Include="ListaStock.h" />
+    <ClInclude Include="ListaTripe.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="Loja.h" />
+    <ClInclude Include="Objetiva.h" />
+    <ClInclude Include="Pesquisa.h" />
+    <ClInclude Include="Produto.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Stock.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="TrabalhoFotografico.h" />
+    <ClInclude Include="Tripe.h" />
+    <ClInclude Include="ui_utils.h" />
+    <ClInclude Include="Utilizador.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Camara.cpp" />
+    <ClCompile Include="Flash.cpp" />
+    <ClCompile Include="ListaCamara.cpp" />
+    <ClCompile Include="ListaFlash.cpp" />
+    <ClCompile Include="ListaObjetivas.cpp" />
+    <ClCompile Include="ListaProdutos.cpp" />
+    <ClCompile Include="ListaStock.cpp" />
+    <ClCompile Include="ListaTripe.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="Loja.cpp" />
+    <ClCompile Include="Objetiva.cpp" />
+    <ClCompile Include="Pesquisa.cpp" />
+    <ClCompile Include="Produto.cpp" />
     <ClCompile Include="REDSI_1160929_1161573.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -156,6 +187,11 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Stock.cpp" />
+    <ClCompile Include="TrabalhoFotografico.cpp" />
+    <ClCompile Include="Tripe.cpp" />
+    <ClCompile Include="ui_utils.cpp" />
+    <ClCompile Include="Utilizador.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

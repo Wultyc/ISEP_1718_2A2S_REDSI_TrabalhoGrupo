@@ -1,11 +1,26 @@
-// REDSI_1160929_1161573.cpp : Defines the entry point for the console application.
-//
+/**
+*   Trabalho de REDSI
+*   ISEP 2017/2018 - 2º Semestre
+*
+*   Autores:
+*       Luís Pereira (1161573)
+*       Jorge Azevedo (1160929)
+*
+*   Professores Orientadores:
+*       Alberto Sampaio
+*       David Pereira
+*/
 
 #include "stdafx.h"
+#include <iostream>
+#include <string>
+#include "ui_utils.h"
 
+using namespace std;
 
-int main()
-{
-    return 0;
+int main() {
+	cout << "Hello world!" << endl;
+	return 0;
 }
+
 
