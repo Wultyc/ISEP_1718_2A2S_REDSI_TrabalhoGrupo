@@ -1,9 +1,9 @@
 /**
 *   Trabalho de REDSI
-*   ISEP 2017/2018 - 2º Semestre
+*   ISEP 2017/2018 - 2o Semestre
 *
 *   Autores:
-*       Luís Pereira (1161573)
+*       Luis Pereira (1161573)
 *       Jorge Azevedo (1160929)
 *
 *   Professores Orientadores:
