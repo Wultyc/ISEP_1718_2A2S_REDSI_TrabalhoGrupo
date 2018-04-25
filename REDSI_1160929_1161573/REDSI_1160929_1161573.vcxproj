@@ -157,6 +157,7 @@
     <ClInclude Include="Loja.h" />
     <ClInclude Include="Objetiva.h" />
     <ClInclude Include="Pesquisa.h" />
+    <ClInclude Include="ProductList.h" />
     <ClInclude Include="Produto.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Stock.h" />
@@ -179,6 +180,7 @@
     <ClCompile Include="Loja.cpp" />
     <ClCompile Include="Objetiva.cpp" />
     <ClCompile Include="Pesquisa.cpp" />
+    <ClCompile Include="ProductList.cpp" />
     <ClCompile Include="Produto.cpp" />
     <ClCompile Include="REDSI_1160929_1161573.cpp" />
     <ClCompile Include="stdafx.cpp">
