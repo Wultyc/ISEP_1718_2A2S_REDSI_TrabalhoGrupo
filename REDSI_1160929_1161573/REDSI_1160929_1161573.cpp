@@ -3,8 +3,9 @@
 *   ISEP 2017/2018 - 2o Semestre
 *
 *   Autores:
-*       Luis Pereira (1161573)
 *       Jorge Azevedo (1160929)
+*		João Ribeiro (1161049)
+*		Luís Pereira (1161573)
 *
 *   Professores Orientadores:
 *       Alberto Sampaio

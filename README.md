@@ -5,8 +5,9 @@ Alberto Sampaio
 David Pereira
 
 ### Autores ###
-Luís Pereira (1161573)  
-Jorge Azevedo (1160929)
+Jorge Azevedo (1160929)  
+João Ribeiro (1161049)  
+Luís Pereira (1161573)
 
 ### Escola ###
 Istituto Superior de Engenharia do Porto
