@@ -2,10 +2,11 @@
 #define CAMARA_H
 
 #include <string>
+#include "Produto.h"
 
 using namespace std;
 
-class Camara
+class Camara : public Produto
 {
     public:
         Camara();

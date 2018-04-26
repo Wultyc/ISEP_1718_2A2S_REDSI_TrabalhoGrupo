@@ -2,10 +2,11 @@
 #define TRIPE_H
 
 #include <string>
+#include "Produto.h"
 
 using namespace std;
 
-class Tripe
+class Tripe : public Produto
 {
     public:
         Tripe();

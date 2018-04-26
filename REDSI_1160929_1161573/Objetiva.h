@@ -2,10 +2,11 @@
 #define OBJETIVA_H
 
 #include <string>
+#include "Produto.h"
 
 using namespace std;
 
-class Objetiva
+class Objetiva : public Produto
 {
     public:
         Objetiva();

@@ -2,10 +2,11 @@
 #define FLASH_H
 
 #include <string>
+#include "Produto.h"
 
 using namespace std;
 
-class Flash
+class Flash : public Produto
 {
     public:
         Flash();
