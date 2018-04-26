@@ -88,10 +88,13 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\redsi\redsi_1160929-1161573\mysql-connector-c++-noinstall-1.1.9-win32\include;D:\redsi\redsi_1160929-1161573\boost_1_67_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\redsi\redsi_1160929-1161573\mysql-connector-c++-noinstall-1.1.9-win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mysqlcppcon.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -116,12 +119,15 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>D:\redsi\redsi_1160929-1161573\mysql-connector-c++-noinstall-1.1.9-win32\include;D:\redsi\redsi_1160929-1161573\boost_1_67_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>D:\redsi\redsi_1160929-1161573\mysql-connector-c++-noinstall-1.1.9-win32\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>mysqlcppcon.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -157,7 +163,6 @@
     <ClInclude Include="Loja.h" />
     <ClInclude Include="Objetiva.h" />
     <ClInclude Include="Pesquisa.h" />
-    <ClInclude Include="ProductList.h" />
     <ClInclude Include="Produto.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Stock.h" />
@@ -173,14 +178,16 @@
     <ClCompile Include="ListaCamara.cpp" />
     <ClCompile Include="ListaFlash.cpp" />
     <ClCompile Include="ListaObjetivas.cpp" />
-    <ClCompile Include="ListaProdutos.cpp" />
+    <ClCompile Include="ListaProdutos.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\redsi\redsi_1160929-1161573\mysql-connector-c++-noinstall-1.1.9-win32\include;D:\redsi\redsi_1160929-1161573\boost_1_67_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\redsi\redsi_1160929-1161573\mysql-connector-c++-noinstall-1.1.9-win32\include;D:\redsi\redsi_1160929-1161573\boost_1_67_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
     <ClCompile Include="ListaStock.cpp" />
     <ClCompile Include="ListaTripe.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="Loja.cpp" />
     <ClCompile Include="Objetiva.cpp" />
     <ClCompile Include="Pesquisa.cpp" />
-    <ClCompile Include="ProductList.cpp" />
     <ClCompile Include="Produto.cpp" />
     <ClCompile Include="REDSI_1160929_1161573.cpp" />
     <ClCompile Include="stdafx.cpp">
