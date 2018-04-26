@@ -12,6 +12,17 @@ class Tripe : public Produto
         Tripe();
         virtual ~Tripe();
 
+		//get
+		int getID();
+		string getMarca();
+		string getModelo();
+		float getPeso();
+
+		//set
+		void setID(int i);
+		void setMarca(string m);
+		void setPeso(float p);
+
     private:
 		int id;
 		string marca;

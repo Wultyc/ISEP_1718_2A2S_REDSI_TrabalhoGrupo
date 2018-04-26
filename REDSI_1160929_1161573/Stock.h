@@ -13,6 +13,20 @@ class Stock
         Stock();
         virtual ~Stock();
 
+		//get
+		Utilizador getUtilizador();
+		Produto getProduto();
+		int getPreco();
+		bool isNovo();
+		int getUnRestantes()
+
+		//set
+		void setUtilizador(Utilizador u);
+		void setProduto(Produto p);
+		void setPreco(int p);
+		void setNovo(bool n);
+		void setUnRestantes(int ur);
+
     private:
 		Utilizador vendedor;
 		Produto produto;

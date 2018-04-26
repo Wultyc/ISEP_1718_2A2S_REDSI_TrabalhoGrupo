@@ -24,7 +24,7 @@ class TrabalhoFotografico
 		string getDate();
 
 		//sets
-		bool setCamara(Camara cam);
+		void setCamara(Camara cam);
 		bool addObjetiva(Objetiva obj);
 		bool addFlash(Flash flash);
 		bool addTripe(Tripe tripe);

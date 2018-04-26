@@ -35,9 +35,9 @@ string TrabalhoFotografico::getDate()
 	return string();
 }
 
-bool TrabalhoFotografico::setCamara(Camara cam)
+void TrabalhoFotografico::setCamara(Camara cam)
 {
-	return false;
+	
 }
 
 bool TrabalhoFotografico::addObjetiva(Objetiva obj)
