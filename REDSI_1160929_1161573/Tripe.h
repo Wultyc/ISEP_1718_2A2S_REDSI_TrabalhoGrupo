@@ -1,6 +1,9 @@
 #ifndef TRIPE_H
 #define TRIPE_H
 
+#include <string>
+
+using namespace std;
 
 class Tripe
 {
@@ -8,9 +11,11 @@ class Tripe
         Tripe();
         virtual ~Tripe();
 
-    protected:
-
     private:
+		int id;
+		string marca;
+		string modelo;
+		float peso;
 };
 
 #endif // TRIPE_H

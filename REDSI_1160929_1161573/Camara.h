@@ -1,6 +1,9 @@
 #ifndef CAMARA_H
 #define CAMARA_H
 
+#include <string>
+
+using namespace std;
 
 class Camara
 {
@@ -8,9 +11,12 @@ class Camara
         Camara();
         virtual ~Camara();
 
-    protected:
-
     private:
+		int id;
+		string marca;
+		string modelo;
+		string sensor;
+		float peso;
 };
 
 #endif // CAMARA_H

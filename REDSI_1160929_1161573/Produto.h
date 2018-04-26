@@ -1,6 +1,9 @@
 #ifndef PRODUTO_H
 #define PRODUTO_H
 
+#include <string>
+
+using namespace std;
 
 class Produto
 {
@@ -8,9 +11,8 @@ class Produto
         Produto();
         virtual ~Produto();
 
-    protected:
-
     private:
+		
 };
 
 #endif // PRODUTO_H
