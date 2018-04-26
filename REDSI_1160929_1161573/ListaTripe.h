@@ -1,14 +1,26 @@
 #ifndef LISTATRIPE_H
 #define LISTATRIPE_H
 
+#include <string>
+#include <list>
+#include "ListaProdutos.h"
+#include "Produto.h"
 
-class ListaTripe
+
+class ListaTripe : public ListaProdutos
 {
     public:
         ListaTripe();
         virtual ~ListaTripe();
-
-    protected:
+		list<Produto> getList(); //tem de se mudar o tipo de dados
+		bool importdata();
+		bool insertElement();
+		bool updateElement();
+		bool deleteElement();
+		bool exportData();
+		bool exportInsertData();
+		bool exportUpdateData();
+		bool exportDeleteData();
 
     private:
 };
