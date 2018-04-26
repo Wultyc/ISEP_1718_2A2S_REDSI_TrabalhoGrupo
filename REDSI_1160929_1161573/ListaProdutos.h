@@ -8,6 +8,16 @@ class ListaProdutos
         ListaProdutos();
         virtual ~ListaProdutos();
 
+		void getList(); //tem de se mudar o tipo de dados
+		bool importdata();
+		bool insertElement();
+		bool updateElement();
+		bool deleteElement();
+		bool exportData();
+		bool exportInsertData();
+		bool exportUpdateData();
+		bool exportDeleteData();
+
     protected:
 
     private:
