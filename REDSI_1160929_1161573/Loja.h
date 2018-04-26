@@ -21,6 +21,24 @@ class Loja
         Loja();
         virtual ~Loja();
 
+		//get
+		Pesquisa getPesquisa();
+		Login getLogin_ativo();
+		ListaCamaras getCamaras();
+		ListaObjetivas getObjetivas();
+		ListaFlash getFlashs();
+		ListaTripe getTripes();
+		ListaStock getStocks();
+
+		//set
+		void getPesquisa(Pesquisa p);
+		void getLogin_ativo(Login la);
+		void getCamaras(ListaCamaras lc);
+		void getObjetivas(ListaObjetivas lo);
+		void getFlashs(ListaFlash lf);
+		void getTripes(ListaTripe lt);
+		void getStocks(ListaStock ls);
+
     private:
 		//Pesquisa
 		Pesquisa pesquisa;
