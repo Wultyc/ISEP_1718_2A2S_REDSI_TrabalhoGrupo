@@ -1,6 +1,12 @@
 #ifndef LOJA_H
 #define LOJA_H
 
+#include <string>
+#include <list>
+
+
+
+using namespace std;
 
 class Loja
 {
@@ -8,9 +14,8 @@ class Loja
         Loja();
         virtual ~Loja();
 
-    protected:
-
     private:
+
 };
 
 #endif // LOJA_H

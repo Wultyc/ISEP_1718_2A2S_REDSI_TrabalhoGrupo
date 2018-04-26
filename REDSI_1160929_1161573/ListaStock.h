@@ -3,8 +3,10 @@
 
 #include <string>
 #include <list>
+#include <vector>
 #include "ListaProdutos.h"
 #include "Produto.h"
+#include "Stock.h"
 
 
 class ListaStock : public ListaProdutos
@@ -22,6 +24,8 @@ class ListaStock : public ListaProdutos
 		bool exportUpdateData();
 		bool exportDeleteData();
     private:
+		list<Stock> tripe;
+		vector<int> cd;
 };
 
 #endif // LISTASTOCK_H

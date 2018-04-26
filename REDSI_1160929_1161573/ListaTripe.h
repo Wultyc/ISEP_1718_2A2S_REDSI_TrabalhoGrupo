@@ -3,8 +3,10 @@
 
 #include <string>
 #include <list>
+#include <vector>
 #include "ListaProdutos.h"
 #include "Produto.h"
+#include "Tripe.h"
 
 
 class ListaTripe : public ListaProdutos
@@ -23,6 +25,9 @@ class ListaTripe : public ListaProdutos
 		bool exportDeleteData();
 
     private:
+		list<Tripe> tripe;
+		vector<int> cd;
+
 };
 
 #endif // LISTATRIPE_H
