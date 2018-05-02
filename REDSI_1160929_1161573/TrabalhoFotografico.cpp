@@ -1,4 +1,5 @@
 #include "TrabalhoFotografico.h"
+#include "stdafx.h"
 
 TrabalhoFotografico::TrabalhoFotografico()
 {

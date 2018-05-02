@@ -1,4 +1,5 @@
 #include "Camara.h"
+#include "stdafx.h"
 
 Camara::Camara()
 {

@@ -1,4 +1,5 @@
 #include "Utilizador.h"
+#include "stdafx.h"
 
 Utilizador::Utilizador()
 {

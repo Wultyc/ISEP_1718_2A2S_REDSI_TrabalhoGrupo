@@ -1,4 +1,5 @@
 #include "Pesquisa.h"
+#include "stdafx.h"
 
 Pesquisa::Pesquisa()
 {

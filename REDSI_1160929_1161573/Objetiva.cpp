@@ -1,4 +1,5 @@
 #include "Objetiva.h"
+#include "stdafx.h"
 
 Objetiva::Objetiva()
 {

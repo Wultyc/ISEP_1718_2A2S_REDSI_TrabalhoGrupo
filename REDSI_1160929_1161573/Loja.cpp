@@ -1,4 +1,5 @@
 #include "Loja.h"
+#include "stdafx.h"
 
 Loja::Loja()
 {

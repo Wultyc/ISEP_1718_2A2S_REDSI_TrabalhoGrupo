@@ -1,4 +1,5 @@
 #include "Stock.h"
+#include "stdafx.h"
 
 Stock::Stock()
 {

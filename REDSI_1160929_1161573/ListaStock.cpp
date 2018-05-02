@@ -1,4 +1,5 @@
 #include "ListaStock.h"
+#include "stdafx.h"
 
 ListaStock::ListaStock()
 {

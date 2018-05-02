@@ -1,4 +1,5 @@
 #include "Tripe.h"
+#include "stdafx.h"
 
 Tripe::Tripe()
 {

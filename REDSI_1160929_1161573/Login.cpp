@@ -1,4 +1,5 @@
 #include "Login.h"
+#include "stdafx.h"
 
 Login::Login()
 {

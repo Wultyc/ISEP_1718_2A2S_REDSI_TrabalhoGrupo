@@ -1,6 +1,7 @@
 #include<iostream>
 #include <string>
 #include "ui_utils.h"
+#include "stdafx.h"
 
 using namespace std;
 

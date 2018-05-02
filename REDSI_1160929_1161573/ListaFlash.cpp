@@ -1,4 +1,5 @@
 #include "ListaFlash.h"
+#include "stdafx.h"
 
 ListaFlash::ListaFlash()
 {

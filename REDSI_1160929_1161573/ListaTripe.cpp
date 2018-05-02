@@ -1,4 +1,5 @@
 #include "ListaTripe.h"
+#include "stdafx.h"
 
 ListaTripe::ListaTripe()
 {

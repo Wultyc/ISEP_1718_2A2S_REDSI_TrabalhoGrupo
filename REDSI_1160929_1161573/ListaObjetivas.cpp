@@ -1,4 +1,5 @@
 #include "ListaObjetivas.h"
+#include "stdafx.h"
 
 ListaObjetivas::ListaObjetivas()
 {

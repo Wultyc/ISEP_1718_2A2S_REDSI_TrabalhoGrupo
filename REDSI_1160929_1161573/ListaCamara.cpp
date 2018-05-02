@@ -1,4 +1,5 @@
 #include "ListaCamara.h"
+#include "stdafx.h"
 
 ListaCamaras::ListaCamaras()
 {

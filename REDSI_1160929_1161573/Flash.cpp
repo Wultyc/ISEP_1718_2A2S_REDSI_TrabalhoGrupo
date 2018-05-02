@@ -1,4 +1,5 @@
 #include "Flash.h"
+#include "stdafx.h"
 
 Flash::Flash()
 {

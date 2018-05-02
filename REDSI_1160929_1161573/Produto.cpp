@@ -1,4 +1,5 @@
 #include "Produto.h"
+#include "stdafx.h"
 
 Produto::Produto()
 {
