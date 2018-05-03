@@ -9,7 +9,9 @@ using namespace std;
 class Objetiva : public Produto
 {
     public:
-        Objetiva();
+		Objetiva();
+		Objetiva(int i, string m, string mo, string t, float zM, float zm, float aM, float am, float p);
+		Objetiva(Objetiva &Obj);
         virtual ~Objetiva();
 
 		//get
@@ -26,6 +28,7 @@ class Objetiva : public Produto
 		//set
 		void setID(int i);
 		void setMarca(string m);
+		void setModelo(string m);
 		void setTipo(string t);
 		void setZoomMax(float zM);
 		void setZoomMin(float zm);
@@ -33,8 +36,13 @@ class Objetiva : public Produto
 		void setAbrMin(float am);
 		void setPeso(float p);
 
+		string toString(bool condensed = false);
+		string toStringFull();
+		string toStringCons();
+
     private:
-		int marca;
+		int id;
+		string marca;
 		string modelo;
 		string tipo;
 		float zoom_min;
