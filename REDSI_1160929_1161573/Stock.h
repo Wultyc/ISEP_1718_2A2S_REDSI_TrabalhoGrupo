@@ -11,23 +11,33 @@ class Stock
 {
     public:
         Stock();
+		Stock(Utilizador v, Produto p, float p; bool n; int ur);
+		Stock(Stock &s);
         virtual ~Stock();
 
 		//get
-		Utilizador getUtilizador();
+		int getID();
+		Utilizador getVendedor();
 		Produto getProduto();
 		int getPreco();
 		bool isNovo();
 		int getUnRestantes()
 
 		//set
-		void setUtilizador(Utilizador u);
+		void setID(int i);
+		void setVendedor(Utilizador v);
 		void setProduto(Produto p);
 		void setPreco(int p);
 		void setNovo(bool n);
 		void setUnRestantes(int ur);
+		
+		string toString(bool condensed = false);
+		string toStringFull();
+		string toStringCons();
 
     private:
+		int id;
+	
 		Utilizador vendedor;
 		Produto produto;
 

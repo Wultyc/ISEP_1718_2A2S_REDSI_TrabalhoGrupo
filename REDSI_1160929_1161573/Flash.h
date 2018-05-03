@@ -10,6 +10,7 @@ class Flash : public Produto
 {
     public:
         Flash();
+		Flash(int i, string m, string mo, float p);
         virtual ~Flash();
 
 		//get
@@ -21,7 +22,12 @@ class Flash : public Produto
 		//set
 		void setID(int i);
 		void setMarca(string m);
+		void setModelo(string m);
 		void setPeso(float p);
+		
+		string toString(bool condensed = false);
+		string toStringFull();
+		string toStringCons();
 
     private:
 		int id;

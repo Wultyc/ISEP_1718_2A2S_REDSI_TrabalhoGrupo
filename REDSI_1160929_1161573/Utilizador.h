@@ -9,6 +9,8 @@ class Utilizador
 {
     public:
         Utilizador();
+        Utilizador(int id, string nome, int nContrib, string morada, int tlf, string email, int categoria);
+        Utilizador(Utilizador &U);
         virtual ~Utilizador();
 
 		//get
@@ -28,6 +30,10 @@ class Utilizador
 		void setTlf(int t);
 		void setEmail(string e);
 		void setCategoria(int c);
+		
+		string toString(bool condensed = false);
+		string toStringFull();
+		string toStringCons();
 
     private:
 		int id;
