@@ -10,6 +10,8 @@ class Camara : public Produto
 {
     public:
         Camara();
+		Camara(int i, string m, string mo, string s, float p);
+		Camara(Camara &C1);
         virtual ~Camara();
 
 		//get
@@ -22,8 +24,13 @@ class Camara : public Produto
 		//set
 		void setID(int i);
 		void setMarca(string m);
+		void setModelo(string m);
 		void setSensor(string s);
 		void setPeso(float p);
+
+		string toString(bool condensed = false);
+		string toStringFull();
+		string toStringCons();
 
     private:
 		int id;
