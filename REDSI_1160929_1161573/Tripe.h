@@ -9,7 +9,9 @@ using namespace std;
 class Tripe : public Produto
 {
     public:
-        Tripe();
+		Tripe();
+		Tripe(int i, string m, string mo, float p);
+		Tripe(Tripe &t);
         virtual ~Tripe();
 
 		//get
@@ -21,7 +23,12 @@ class Tripe : public Produto
 		//set
 		void setID(int i);
 		void setMarca(string m);
+		void setModelo(string m);
 		void setPeso(float p);
+
+		string toString(bool condensed = false);
+		string toStringFull();
+		string toStringCons();
 
     private:
 		int id;
