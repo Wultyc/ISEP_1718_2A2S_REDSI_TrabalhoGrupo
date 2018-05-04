@@ -52,7 +52,7 @@ void Stock::setID(int i){
 void Stock::setVendedor(Utilizador v){
 	vendedor = v;
 }
-void Stock::setProduto(Produto p){
+void Stock::setProduto(Produto v){
 	produto = v;
 }
 void Stock::setPreco(int p){

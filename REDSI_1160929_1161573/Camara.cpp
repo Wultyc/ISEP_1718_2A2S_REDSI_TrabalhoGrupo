@@ -78,7 +78,7 @@ string Camara::toStringFull(){
 	r += "\nMarca: " + getMarca();
 	r += "\nModelo: " + getModelo();
 	r += "\nSensor: " + getSensor();
-	r += "\nPeso: " + getPeso() + "g";
+	r += "\nPeso: " + to_string(getPeso()) + "g";
 
 	return r;
 }
@@ -90,7 +90,7 @@ string Camara::toStringCons(){
 	r += "\t| " + getMarca();
 	r += "\t| " + getModelo();
 	r += "\t| " + getSensor();
-	r += "\t| " + getPeso() + "g";
+	r += "\t| " + to_string(getPeso()) + "g";
 
 	return r;
 }
