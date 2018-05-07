@@ -1,71 +1,164 @@
-﻿  stdafx.cpp
-  Camara.cpp
+﻿  Camara.cpp
 Camara.cpp(4): error C2653: 'Camara': is not a class or namespace name
-Camara.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Camara.cpp(7): warning C4508: 'Camara': function should return a value; 'void' return type assumed
-Camara.cpp(9): error C2653: 'Camara': is not a class or namespace name
-Camara.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Camara.cpp(10): error C2084: function 'int Camara(void)' already has a body
+Camara.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Camara.cpp(6): warning C4508: 'Camara': function should return a value; 'void' return type assumed
+Camara.cpp(8): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(8): error C2061: syntax error: identifier 'string'
+Camara.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Camara.cpp(10): error C3861: 'setID': identifier not found
+Camara.cpp(11): error C2065: 'm': undeclared identifier
+Camara.cpp(11): error C3861: 'setMarca': identifier not found
+Camara.cpp(12): error C2065: 'mo': undeclared identifier
+Camara.cpp(12): error C3861: 'setModelo': identifier not found
+Camara.cpp(13): error C2065: 's': undeclared identifier
+Camara.cpp(13): error C3861: 'setSensor': identifier not found
+Camara.cpp(14): error C2065: 'p': undeclared identifier
+Camara.cpp(14): error C3861: 'setPeso': identifier not found
+Camara.cpp(15): warning C4508: 'Camara': function should return a value; 'void' return type assumed
+Camara.cpp(17): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(17): error C2065: 'C1': undeclared identifier
+Camara.cpp(17): error C2563: mismatch in formal parameter list
+Camara.cpp(17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Camara.cpp(17): error C2365: 'Camara': redefinition; previous definition was 'function'
+Camara.cpp(17): error C2448: 'Camara': function-style initializer appears to be a function definition
+Camara.cpp(26): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Camara.cpp(26): error C2084: function 'int Camara(void)' already has a body
   Camara.cpp(4): note: see previous definition of 'Camara'
-Camara.cpp(14): error C2653: 'Camara': is not a class or namespace name
-Camara.cpp(19): error C2653: 'Camara': is not a class or namespace name
-Camara.cpp(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Camara.cpp(19): error C2146: syntax error: missing ';' before identifier 'getMarca'
-Camara.cpp(20): error C2143: syntax error: missing ';' before '{'
-Camara.cpp(20): error C2447: '{': missing function header (old-style formal list?)
-Camara.cpp(24): error C2653: 'Camara': is not a class or namespace name
-Camara.cpp(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Camara.cpp(24): error C2086: 'int string': redefinition
-  Camara.cpp(19): note: see declaration of 'string'
-Camara.cpp(24): error C2146: syntax error: missing ';' before identifier 'getModelo'
-Camara.cpp(25): error C2143: syntax error: missing ';' before '{'
-Camara.cpp(25): error C2447: '{': missing function header (old-style formal list?)
-Camara.cpp(29): error C2653: 'Camara': is not a class or namespace name
-Camara.cpp(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Camara.cpp(29): error C2086: 'int string': redefinition
-  Camara.cpp(19): note: see declaration of 'string'
-Camara.cpp(29): error C2146: syntax error: missing ';' before identifier 'getSensor'
-Camara.cpp(30): error C2143: syntax error: missing ';' before '{'
-Camara.cpp(30): error C2447: '{': missing function header (old-style formal list?)
+Camara.cpp(30): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(31): error C2065: 'id': undeclared identifier
 Camara.cpp(34): error C2653: 'Camara': is not a class or namespace name
-Camara.cpp(39): error C2653: 'Camara': is not a class or namespace name
-Camara.cpp(43): error C2653: 'Camara': is not a class or namespace name
-Camara.cpp(43): error C2146: syntax error: missing ')' before identifier 'm'
-Camara.cpp(44): error C2143: syntax error: missing ';' before '{'
-Camara.cpp(44): error C2447: '{': missing function header (old-style formal list?)
-Camara.cpp(47): error C2653: 'Camara': is not a class or namespace name
-Camara.cpp(47): error C2146: syntax error: missing ')' before identifier 's'
-Camara.cpp(48): error C2143: syntax error: missing ';' before '{'
-Camara.cpp(48): error C2447: '{': missing function header (old-style formal list?)
-Camara.cpp(51): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Camara.cpp(34): error C2146: syntax error: missing ';' before identifier 'getMarca'
+Camara.cpp(34): error C2143: syntax error: missing ';' before '{'
+Camara.cpp(34): error C2447: '{': missing function header (old-style formal list?)
+Camara.cpp(38): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Camara.cpp(38): error C2086: 'int string': redefinition
+  Camara.cpp(34): note: see declaration of 'string'
+Camara.cpp(38): error C2146: syntax error: missing ';' before identifier 'getModelo'
+Camara.cpp(38): error C2143: syntax error: missing ';' before '{'
+Camara.cpp(38): error C2447: '{': missing function header (old-style formal list?)
+Camara.cpp(42): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(42): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Camara.cpp(42): error C2086: 'int string': redefinition
+  Camara.cpp(34): note: see declaration of 'string'
+Camara.cpp(42): error C2146: syntax error: missing ';' before identifier 'getSensor'
+Camara.cpp(42): error C2143: syntax error: missing ';' before '{'
+Camara.cpp(42): error C2447: '{': missing function header (old-style formal list?)
+Camara.cpp(46): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(47): error C2065: 'peso': undeclared identifier
+Camara.cpp(50): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(51): error C2065: 'id': undeclared identifier
+Camara.cpp(54): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(54): error C2146: syntax error: missing ')' before identifier 'm'
+Camara.cpp(54): error C2143: syntax error: missing ';' before '{'
+Camara.cpp(54): error C2447: '{': missing function header (old-style formal list?)
+Camara.cpp(58): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(58): error C2146: syntax error: missing ')' before identifier 'm'
+Camara.cpp(58): error C2143: syntax error: missing ';' before '{'
+Camara.cpp(58): error C2447: '{': missing function header (old-style formal list?)
+Camara.cpp(62): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(62): error C2146: syntax error: missing ')' before identifier 's'
+Camara.cpp(62): error C2143: syntax error: missing ';' before '{'
+Camara.cpp(62): error C2447: '{': missing function header (old-style formal list?)
+Camara.cpp(66): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(67): error C2065: 'peso': undeclared identifier
+Camara.cpp(70): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Camara.cpp(70): error C2086: 'int string': redefinition
+  Camara.cpp(34): note: see declaration of 'string'
+Camara.cpp(70): error C2146: syntax error: missing ';' before identifier 'toString'
+Camara.cpp(70): error C2143: syntax error: missing ';' before '{'
+Camara.cpp(70): error C2447: '{': missing function header (old-style formal list?)
+Camara.cpp(74): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Camara.cpp(74): error C2086: 'int string': redefinition
+  Camara.cpp(34): note: see declaration of 'string'
+Camara.cpp(74): error C2146: syntax error: missing ';' before identifier 'toStringFull'
+Camara.cpp(74): error C2143: syntax error: missing ';' before '{'
+Camara.cpp(74): error C2447: '{': missing function header (old-style formal list?)
+Camara.cpp(86): error C2653: 'Camara': is not a class or namespace name
+Camara.cpp(86): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Camara.cpp(86): error C2086: 'int string': redefinition
+  Camara.cpp(34): note: see declaration of 'string'
+Camara.cpp(86): error C2146: syntax error: missing ';' before identifier 'toStringCons'
+Camara.cpp(86): error C2143: syntax error: missing ';' before '{'
+Camara.cpp(86): error C2447: '{': missing function header (old-style formal list?)
   Flash.cpp
 Flash.cpp(4): error C2653: 'Flash': is not a class or namespace name
-Flash.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Flash.cpp(7): warning C4508: 'Flash': function should return a value; 'void' return type assumed
-Flash.cpp(9): error C2653: 'Flash': is not a class or namespace name
-Flash.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Flash.cpp(10): error C2084: function 'int Flash(void)' already has a body
-  Flash.cpp(4): note: see previous definition of 'Flash'
-Flash.cpp(14): error C2653: 'Flash': is not a class or namespace name
-Flash.cpp(19): error C2653: 'Flash': is not a class or namespace name
-Flash.cpp(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Flash.cpp(19): error C2146: syntax error: missing ';' before identifier 'getMarca'
-Flash.cpp(20): error C2143: syntax error: missing ';' before '{'
-Flash.cpp(20): error C2447: '{': missing function header (old-style formal list?)
+Flash.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Flash.cpp(6): warning C4508: 'Flash': function should return a value; 'void' return type assumed
+Flash.cpp(8): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(8): error C2061: syntax error: identifier 'string'
+Flash.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Flash.cpp(10): error C3861: 'setID': identifier not found
+Flash.cpp(11): error C2065: 'm': undeclared identifier
+Flash.cpp(11): error C3861: 'setMarca': identifier not found
+Flash.cpp(12): error C2065: 'mo': undeclared identifier
+Flash.cpp(12): error C3861: 'setModelo': identifier not found
+Flash.cpp(13): error C2065: 'p': undeclared identifier
+Flash.cpp(13): error C3861: 'setPeso': identifier not found
+Flash.cpp(14): warning C4508: 'Flash': function should return a value; 'void' return type assumed
+Flash.cpp(16): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(16): error C2065: 'f': undeclared identifier
+Flash.cpp(16): error C2563: mismatch in formal parameter list
+Flash.cpp(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Flash.cpp(16): error C2365: 'Flash': redefinition; previous definition was 'function'
+Flash.cpp(16): error C2448: 'Flash': function-style initializer appears to be a function definition
 Flash.cpp(24): error C2653: 'Flash': is not a class or namespace name
 Flash.cpp(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Flash.cpp(24): error C2086: 'int string': redefinition
-  Flash.cpp(19): note: see declaration of 'string'
-Flash.cpp(24): error C2146: syntax error: missing ';' before identifier 'getModelo'
-Flash.cpp(25): error C2143: syntax error: missing ';' before '{'
-Flash.cpp(25): error C2447: '{': missing function header (old-style formal list?)
-Flash.cpp(29): error C2653: 'Flash': is not a class or namespace name
-Flash.cpp(34): error C2653: 'Flash': is not a class or namespace name
-Flash.cpp(38): error C2653: 'Flash': is not a class or namespace name
-Flash.cpp(38): error C2146: syntax error: missing ')' before identifier 'm'
-Flash.cpp(39): error C2143: syntax error: missing ';' before '{'
-Flash.cpp(39): error C2447: '{': missing function header (old-style formal list?)
-Flash.cpp(42): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(24): error C2084: function 'int Flash(void)' already has a body
+  Flash.cpp(4): note: see previous definition of 'Flash'
+Flash.cpp(28): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(29): error C2065: 'id': undeclared identifier
+Flash.cpp(32): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Flash.cpp(32): error C2146: syntax error: missing ';' before identifier 'getMarca'
+Flash.cpp(32): error C2143: syntax error: missing ';' before '{'
+Flash.cpp(32): error C2447: '{': missing function header (old-style formal list?)
+Flash.cpp(36): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Flash.cpp(36): error C2086: 'int string': redefinition
+  Flash.cpp(32): note: see declaration of 'string'
+Flash.cpp(36): error C2146: syntax error: missing ';' before identifier 'getModelo'
+Flash.cpp(36): error C2143: syntax error: missing ';' before '{'
+Flash.cpp(36): error C2447: '{': missing function header (old-style formal list?)
+Flash.cpp(40): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(41): error C2065: 'peso': undeclared identifier
+Flash.cpp(44): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(45): error C2065: 'id': undeclared identifier
+Flash.cpp(48): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(48): error C2146: syntax error: missing ')' before identifier 'm'
+Flash.cpp(48): error C2143: syntax error: missing ';' before '{'
+Flash.cpp(48): error C2447: '{': missing function header (old-style formal list?)
+Flash.cpp(52): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(52): error C2146: syntax error: missing ')' before identifier 'm'
+Flash.cpp(52): error C2143: syntax error: missing ';' before '{'
+Flash.cpp(52): error C2447: '{': missing function header (old-style formal list?)
+Flash.cpp(55): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(56): error C2065: 'peso': undeclared identifier
+Flash.cpp(59): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(59): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Flash.cpp(59): error C2086: 'int string': redefinition
+  Flash.cpp(32): note: see declaration of 'string'
+Flash.cpp(59): error C2146: syntax error: missing ';' before identifier 'toString'
+Flash.cpp(59): error C2143: syntax error: missing ';' before '{'
+Flash.cpp(59): error C2447: '{': missing function header (old-style formal list?)
+Flash.cpp(63): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(63): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Flash.cpp(63): error C2086: 'int string': redefinition
+  Flash.cpp(32): note: see declaration of 'string'
+Flash.cpp(63): error C2146: syntax error: missing ';' before identifier 'toStringFull'
+Flash.cpp(63): error C2143: syntax error: missing ';' before '{'
+Flash.cpp(63): error C2447: '{': missing function header (old-style formal list?)
+Flash.cpp(74): error C2653: 'Flash': is not a class or namespace name
+Flash.cpp(74): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Flash.cpp(74): error C2086: 'int string': redefinition
+  Flash.cpp(32): note: see declaration of 'string'
+Flash.cpp(74): error C2146: syntax error: missing ';' before identifier 'toStringCons'
+Flash.cpp(74): error C2143: syntax error: missing ';' before '{'
+Flash.cpp(74): error C2447: '{': missing function header (old-style formal list?)
   ListaCamara.cpp
 ListaCamara.cpp(4): error C2653: 'ListaCamaras': is not a class or namespace name
 ListaCamara.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -281,51 +374,115 @@ Loja.cpp(74): error C2143: syntax error: missing ';' before '{'
 Loja.cpp(74): error C2447: '{': missing function header (old-style formal list?)
   Objetiva.cpp
 Objetiva.cpp(4): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Objetiva.cpp(7): warning C4508: 'Objetiva': function should return a value; 'void' return type assumed
-Objetiva.cpp(9): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Objetiva.cpp(10): error C2084: function 'int Objetiva(void)' already has a body
+Objetiva.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Objetiva.cpp(6): warning C4508: 'Objetiva': function should return a value; 'void' return type assumed
+Objetiva.cpp(8): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(8): error C2061: syntax error: identifier 'string'
+Objetiva.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Objetiva.cpp(9): error C3861: 'setID': identifier not found
+Objetiva.cpp(10): error C2065: 'm': undeclared identifier
+Objetiva.cpp(10): error C3861: 'setMarca': identifier not found
+Objetiva.cpp(11): error C2065: 'mo': undeclared identifier
+Objetiva.cpp(11): error C3861: 'setModelo': identifier not found
+Objetiva.cpp(12): error C2065: 't': undeclared identifier
+Objetiva.cpp(12): error C3861: 'setTipo': identifier not found
+Objetiva.cpp(13): error C2065: 'zM': undeclared identifier
+Objetiva.cpp(13): error C3861: 'setZoomMax': identifier not found
+Objetiva.cpp(14): error C2065: 'zm': undeclared identifier
+Objetiva.cpp(14): error C3861: 'setZoomMin': identifier not found
+Objetiva.cpp(15): error C2065: 'aM': undeclared identifier
+Objetiva.cpp(15): error C3861: 'setAbrMax': identifier not found
+Objetiva.cpp(16): error C2065: 'am': undeclared identifier
+Objetiva.cpp(16): error C3861: 'setAbrMin': identifier not found
+Objetiva.cpp(17): error C2065: 'p': undeclared identifier
+Objetiva.cpp(17): error C3861: 'setPeso': identifier not found
+Objetiva.cpp(18): warning C4508: 'Objetiva': function should return a value; 'void' return type assumed
+Objetiva.cpp(20): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(20): error C2065: 'Obj': undeclared identifier
+Objetiva.cpp(20): error C2563: mismatch in formal parameter list
+Objetiva.cpp(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Objetiva.cpp(20): error C2365: 'Objetiva': redefinition; previous definition was 'function'
+Objetiva.cpp(20): error C2448: 'Objetiva': function-style initializer appears to be a function definition
+Objetiva.cpp(32): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(32): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Objetiva.cpp(32): error C2084: function 'int Objetiva(void)' already has a body
   Objetiva.cpp(4): note: see previous definition of 'Objetiva'
-Objetiva.cpp(14): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(19): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Objetiva.cpp(19): error C2146: syntax error: missing ';' before identifier 'getMarca'
-Objetiva.cpp(20): error C2143: syntax error: missing ';' before '{'
-Objetiva.cpp(20): error C2447: '{': missing function header (old-style formal list?)
-Objetiva.cpp(24): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Objetiva.cpp(24): error C2086: 'int string': redefinition
-  Objetiva.cpp(19): note: see declaration of 'string'
-Objetiva.cpp(24): error C2146: syntax error: missing ';' before identifier 'getModelo'
-Objetiva.cpp(25): error C2143: syntax error: missing ';' before '{'
-Objetiva.cpp(25): error C2447: '{': missing function header (old-style formal list?)
-Objetiva.cpp(29): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Objetiva.cpp(29): error C2086: 'int string': redefinition
-  Objetiva.cpp(19): note: see declaration of 'string'
-Objetiva.cpp(29): error C2146: syntax error: missing ';' before identifier 'getTipo'
-Objetiva.cpp(30): error C2143: syntax error: missing ';' before '{'
-Objetiva.cpp(30): error C2447: '{': missing function header (old-style formal list?)
-Objetiva.cpp(34): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(39): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(36): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(37): error C2065: 'id': undeclared identifier
+Objetiva.cpp(40): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Objetiva.cpp(40): error C2146: syntax error: missing ';' before identifier 'getMarca'
+Objetiva.cpp(40): error C2143: syntax error: missing ';' before '{'
+Objetiva.cpp(40): error C2447: '{': missing function header (old-style formal list?)
 Objetiva.cpp(44): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(49): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(54): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(59): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(63): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(63): error C2146: syntax error: missing ')' before identifier 'm'
-Objetiva.cpp(64): error C2143: syntax error: missing ';' before '{'
-Objetiva.cpp(64): error C2447: '{': missing function header (old-style formal list?)
-Objetiva.cpp(67): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(67): error C2146: syntax error: missing ')' before identifier 't'
-Objetiva.cpp(68): error C2143: syntax error: missing ';' before '{'
-Objetiva.cpp(68): error C2447: '{': missing function header (old-style formal list?)
-Objetiva.cpp(71): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(75): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(79): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(83): error C2653: 'Objetiva': is not a class or namespace name
-Objetiva.cpp(87): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(44): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Objetiva.cpp(44): error C2086: 'int string': redefinition
+  Objetiva.cpp(40): note: see declaration of 'string'
+Objetiva.cpp(44): error C2146: syntax error: missing ';' before identifier 'getModelo'
+Objetiva.cpp(44): error C2143: syntax error: missing ';' before '{'
+Objetiva.cpp(44): error C2447: '{': missing function header (old-style formal list?)
+Objetiva.cpp(48): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Objetiva.cpp(48): error C2086: 'int string': redefinition
+  Objetiva.cpp(40): note: see declaration of 'string'
+Objetiva.cpp(48): error C2146: syntax error: missing ';' before identifier 'getTipo'
+Objetiva.cpp(48): error C2143: syntax error: missing ';' before '{'
+Objetiva.cpp(48): error C2447: '{': missing function header (old-style formal list?)
+Objetiva.cpp(52): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(53): error C2065: 'zoom_max': undeclared identifier
+Objetiva.cpp(56): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(57): error C2065: 'zoom_min': undeclared identifier
+Objetiva.cpp(60): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(61): error C2065: 'abr_max': undeclared identifier
+Objetiva.cpp(64): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(65): error C2065: 'abr_min': undeclared identifier
+Objetiva.cpp(68): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(69): error C2065: 'peso': undeclared identifier
+Objetiva.cpp(72): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(73): error C2065: 'id': undeclared identifier
+Objetiva.cpp(76): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(76): error C2146: syntax error: missing ')' before identifier 'm'
+Objetiva.cpp(76): error C2143: syntax error: missing ';' before '{'
+Objetiva.cpp(76): error C2447: '{': missing function header (old-style formal list?)
+Objetiva.cpp(80): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(80): error C2146: syntax error: missing ')' before identifier 'm'
+Objetiva.cpp(80): error C2143: syntax error: missing ';' before '{'
+Objetiva.cpp(80): error C2447: '{': missing function header (old-style formal list?)
+Objetiva.cpp(84): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(84): error C2146: syntax error: missing ')' before identifier 't'
+Objetiva.cpp(84): error C2143: syntax error: missing ';' before '{'
+Objetiva.cpp(84): error C2447: '{': missing function header (old-style formal list?)
+Objetiva.cpp(88): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(89): error C2065: 'zoom_max': undeclared identifier
+Objetiva.cpp(92): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(93): error C2065: 'zoom_min': undeclared identifier
+Objetiva.cpp(96): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(97): error C2065: 'abr_max': undeclared identifier
+Objetiva.cpp(100): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(101): error C2065: 'abr_min': undeclared identifier
+Objetiva.cpp(104): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(105): error C2065: 'peso': undeclared identifier
+Objetiva.cpp(108): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Objetiva.cpp(108): error C2086: 'int string': redefinition
+  Objetiva.cpp(40): note: see declaration of 'string'
+Objetiva.cpp(108): error C2146: syntax error: missing ';' before identifier 'toString'
+Objetiva.cpp(108): error C2143: syntax error: missing ';' before '{'
+Objetiva.cpp(108): error C2447: '{': missing function header (old-style formal list?)
+Objetiva.cpp(112): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(112): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Objetiva.cpp(112): error C2086: 'int string': redefinition
+  Objetiva.cpp(40): note: see declaration of 'string'
+Objetiva.cpp(112): error C2146: syntax error: missing ';' before identifier 'toStringFull'
+Objetiva.cpp(112): error C2143: syntax error: missing ';' before '{'
+Objetiva.cpp(112): error C2447: '{': missing function header (old-style formal list?)
+Objetiva.cpp(128): error C2653: 'Objetiva': is not a class or namespace name
+Objetiva.cpp(128): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Objetiva.cpp(128): error C2086: 'int string': redefinition
+  Objetiva.cpp(40): note: see declaration of 'string'
+Objetiva.cpp(128): error C2146: syntax error: missing ';' before identifier 'toStringCons'
+Objetiva.cpp(128): error C2143: syntax error: missing ';' before '{'
+Objetiva.cpp(128): error C2447: '{': missing function header (old-style formal list?)
   Pesquisa.cpp
 Pesquisa.cpp(4): error C2653: 'Pesquisa': is not a class or namespace name
 Pesquisa.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -336,21 +493,114 @@ Pesquisa.cpp(10): error C2084: function 'int Pesquisa(void)' already has a body
   Pesquisa.cpp(4): note: see previous definition of 'Pesquisa'
   Produto.cpp
 Produto.cpp(4): error C2653: 'Produto': is not a class or namespace name
-Produto.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Produto.cpp(7): warning C4508: 'Produto': function should return a value; 'void' return type assumed
-Produto.cpp(9): error C2653: 'Produto': is not a class or namespace name
-Produto.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Produto.cpp(10): error C2084: function 'int Produto(void)' already has a body
+Produto.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Produto.cpp(6): warning C4508: 'Produto': function should return a value; 'void' return type assumed
+Produto.cpp(8): error C2653: 'Produto': is not a class or namespace name
+Produto.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Produto.cpp(8): error C2084: function 'int Produto(void)' already has a body
   Produto.cpp(4): note: see previous definition of 'Produto'
-  REDSI_1160929_1161573.cpp
+Produto.cpp(12): error C2653: 'Produto': is not a class or namespace name
+Produto.cpp(12): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Produto.cpp(12): error C2146: syntax error: missing ';' before identifier 'toString'
+Produto.cpp(12): error C2143: syntax error: missing ';' before '{'
+Produto.cpp(12): error C2447: '{': missing function header (old-style formal list?)
+Produto.cpp(16): error C2653: 'Produto': is not a class or namespace name
+Produto.cpp(20): error C2653: 'Produto': is not a class or namespace name
+Produto.cpp(20): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Produto.cpp(20): error C2086: 'int string': redefinition
+  Produto.cpp(12): note: see declaration of 'string'
+Produto.cpp(20): error C2146: syntax error: missing ';' before identifier 'getMarca'
+Produto.cpp(20): error C2143: syntax error: missing ';' before '{'
+Produto.cpp(20): error C2447: '{': missing function header (old-style formal list?)
+Produto.cpp(25): error C2653: 'Produto': is not a class or namespace name
+Produto.cpp(25): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Produto.cpp(25): error C2086: 'int string': redefinition
+  Produto.cpp(12): note: see declaration of 'string'
+Produto.cpp(25): error C2146: syntax error: missing ';' before identifier 'getModelo'
+Produto.cpp(25): error C2143: syntax error: missing ';' before '{'
+Produto.cpp(25): error C2447: '{': missing function header (old-style formal list?)
   Stock.cpp
 Stock.cpp(4): error C2653: 'Stock': is not a class or namespace name
-Stock.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Stock.cpp(7): warning C4508: 'Stock': function should return a value; 'void' return type assumed
-Stock.cpp(9): error C2653: 'Stock': is not a class or namespace name
-Stock.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Stock.cpp(10): error C2084: function 'int Stock(void)' already has a body
+Stock.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Stock.cpp(6): warning C4508: 'Stock': function should return a value; 'void' return type assumed
+Stock.cpp(7): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(7): error C2061: syntax error: identifier 'Utilizador'
+Stock.cpp(7): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Stock.cpp(9): error C3861: 'setID': identifier not found
+Stock.cpp(10): error C2065: 'v': undeclared identifier
+Stock.cpp(10): error C3861: 'setVendedor': identifier not found
+Stock.cpp(11): error C2065: 'p': undeclared identifier
+Stock.cpp(11): error C3861: 'setProduto': identifier not found
+Stock.cpp(12): error C2065: 'pc': undeclared identifier
+Stock.cpp(12): error C3861: 'setPreco': identifier not found
+Stock.cpp(13): error C2065: 'n': undeclared identifier
+Stock.cpp(13): error C3861: 'setNovo': identifier not found
+Stock.cpp(14): error C2065: 'ur': undeclared identifier
+Stock.cpp(14): error C3861: 'setUnRestantes': identifier not found
+Stock.cpp(15): warning C4508: 'Stock': function should return a value; 'void' return type assumed
+Stock.cpp(16): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(16): error C2065: 's': undeclared identifier
+Stock.cpp(16): error C2563: mismatch in formal parameter list
+Stock.cpp(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Stock.cpp(16): error C2365: 'Stock': redefinition; previous definition was 'function'
+Stock.cpp(16): error C2448: 'Stock': function-style initializer appears to be a function definition
+Stock.cpp(26): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(26): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Stock.cpp(26): error C2084: function 'int Stock(void)' already has a body
   Stock.cpp(4): note: see previous definition of 'Stock'
+Stock.cpp(30): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(31): error C2065: 'id': undeclared identifier
+Stock.cpp(33): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(33): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Stock.cpp(33): error C2146: syntax error: missing ';' before identifier 'getVendedor'
+Stock.cpp(33): error C2143: syntax error: missing ';' before '{'
+Stock.cpp(33): error C2447: '{': missing function header (old-style formal list?)
+Stock.cpp(36): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(36): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Stock.cpp(36): error C2146: syntax error: missing ';' before identifier 'getProduto'
+Stock.cpp(36): error C2143: syntax error: missing ';' before '{'
+Stock.cpp(36): error C2447: '{': missing function header (old-style formal list?)
+Stock.cpp(39): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(40): error C2065: 'preco': undeclared identifier
+Stock.cpp(42): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(43): error C2065: 'novo': undeclared identifier
+Stock.cpp(45): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(46): error C2065: 'unRestantes': undeclared identifier
+Stock.cpp(49): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(50): error C2065: 'id': undeclared identifier
+Stock.cpp(52): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(52): error C2146: syntax error: missing ')' before identifier 'v'
+Stock.cpp(52): error C2143: syntax error: missing ';' before '{'
+Stock.cpp(52): error C2447: '{': missing function header (old-style formal list?)
+Stock.cpp(55): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(55): error C2146: syntax error: missing ')' before identifier 'v'
+Stock.cpp(55): error C2143: syntax error: missing ';' before '{'
+Stock.cpp(55): error C2447: '{': missing function header (old-style formal list?)
+Stock.cpp(58): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(59): error C2065: 'preco': undeclared identifier
+Stock.cpp(61): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(62): error C2065: 'novo': undeclared identifier
+Stock.cpp(64): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(65): error C2065: 'unRestantes': undeclared identifier
+Stock.cpp(68): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(68): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Stock.cpp(68): error C2146: syntax error: missing ';' before identifier 'toString'
+Stock.cpp(68): error C2143: syntax error: missing ';' before '{'
+Stock.cpp(68): error C2447: '{': missing function header (old-style formal list?)
+Stock.cpp(72): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(72): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Stock.cpp(72): error C2086: 'int string': redefinition
+  Stock.cpp(68): note: see declaration of 'string'
+Stock.cpp(72): error C2146: syntax error: missing ';' before identifier 'toStringFull'
+Stock.cpp(72): error C2143: syntax error: missing ';' before '{'
+Stock.cpp(72): error C2447: '{': missing function header (old-style formal list?)
+Stock.cpp(85): error C2653: 'Stock': is not a class or namespace name
+Stock.cpp(85): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Stock.cpp(85): error C2086: 'int string': redefinition
+  Stock.cpp(68): note: see declaration of 'string'
+Stock.cpp(85): error C2146: syntax error: missing ';' before identifier 'toStringCons'
+Stock.cpp(85): error C2143: syntax error: missing ';' before '{'
+Stock.cpp(85): error C2447: '{': missing function header (old-style formal list?)
   TrabalhoFotografico.cpp
 TrabalhoFotografico.cpp(4): error C2653: 'TrabalhoFotografico': is not a class or namespace name
 TrabalhoFotografico.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -425,12 +675,78 @@ TrabalhoFotografico.cpp(75): error C2143: syntax error: missing ';' before '{'
 TrabalhoFotografico.cpp(75): error C2447: '{': missing function header (old-style formal list?)
   Tripe.cpp
 Tripe.cpp(4): error C2653: 'Tripe': is not a class or namespace name
-Tripe.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Tripe.cpp(7): warning C4508: 'Tripe': function should return a value; 'void' return type assumed
-Tripe.cpp(9): error C2653: 'Tripe': is not a class or namespace name
-Tripe.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Tripe.cpp(10): error C2084: function 'int Tripe(void)' already has a body
+Tripe.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Tripe.cpp(6): warning C4508: 'Tripe': function should return a value; 'void' return type assumed
+Tripe.cpp(8): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(8): error C2061: syntax error: identifier 'string'
+Tripe.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Tripe.cpp(9): error C3861: 'setID': identifier not found
+Tripe.cpp(10): error C2065: 'm': undeclared identifier
+Tripe.cpp(10): error C3861: 'setMarca': identifier not found
+Tripe.cpp(11): error C2065: 'mo': undeclared identifier
+Tripe.cpp(11): error C3861: 'setModelo': identifier not found
+Tripe.cpp(12): error C2065: 'p': undeclared identifier
+Tripe.cpp(12): error C3861: 'setPeso': identifier not found
+Tripe.cpp(13): warning C4508: 'Tripe': function should return a value; 'void' return type assumed
+Tripe.cpp(15): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(15): error C2065: 't': undeclared identifier
+Tripe.cpp(15): error C2563: mismatch in formal parameter list
+Tripe.cpp(15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Tripe.cpp(15): error C2365: 'Tripe': redefinition; previous definition was 'function'
+Tripe.cpp(15): error C2448: 'Tripe': function-style initializer appears to be a function definition
+Tripe.cpp(22): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Tripe.cpp(22): error C2084: function 'int Tripe(void)' already has a body
   Tripe.cpp(4): note: see previous definition of 'Tripe'
+Tripe.cpp(26): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(27): error C2065: 'id': undeclared identifier
+Tripe.cpp(30): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Tripe.cpp(30): error C2146: syntax error: missing ';' before identifier 'getMarca'
+Tripe.cpp(30): error C2143: syntax error: missing ';' before '{'
+Tripe.cpp(30): error C2447: '{': missing function header (old-style formal list?)
+Tripe.cpp(34): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(34): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Tripe.cpp(34): error C2086: 'int string': redefinition
+  Tripe.cpp(30): note: see declaration of 'string'
+Tripe.cpp(34): error C2146: syntax error: missing ';' before identifier 'getModelo'
+Tripe.cpp(34): error C2143: syntax error: missing ';' before '{'
+Tripe.cpp(34): error C2447: '{': missing function header (old-style formal list?)
+Tripe.cpp(38): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(39): error C2065: 'peso': undeclared identifier
+Tripe.cpp(42): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(43): error C2065: 'id': undeclared identifier
+Tripe.cpp(46): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(46): error C2146: syntax error: missing ')' before identifier 'm'
+Tripe.cpp(46): error C2143: syntax error: missing ';' before '{'
+Tripe.cpp(46): error C2447: '{': missing function header (old-style formal list?)
+Tripe.cpp(50): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(50): error C2146: syntax error: missing ')' before identifier 'm'
+Tripe.cpp(50): error C2143: syntax error: missing ';' before '{'
+Tripe.cpp(50): error C2447: '{': missing function header (old-style formal list?)
+Tripe.cpp(54): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(55): error C2065: 'peso': undeclared identifier
+Tripe.cpp(58): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(58): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Tripe.cpp(58): error C2086: 'int string': redefinition
+  Tripe.cpp(30): note: see declaration of 'string'
+Tripe.cpp(58): error C2146: syntax error: missing ';' before identifier 'toString'
+Tripe.cpp(58): error C2143: syntax error: missing ';' before '{'
+Tripe.cpp(58): error C2447: '{': missing function header (old-style formal list?)
+Tripe.cpp(62): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(62): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Tripe.cpp(62): error C2086: 'int string': redefinition
+  Tripe.cpp(30): note: see declaration of 'string'
+Tripe.cpp(62): error C2146: syntax error: missing ';' before identifier 'toStringFull'
+Tripe.cpp(62): error C2143: syntax error: missing ';' before '{'
+Tripe.cpp(62): error C2447: '{': missing function header (old-style formal list?)
+Tripe.cpp(73): error C2653: 'Tripe': is not a class or namespace name
+Tripe.cpp(73): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Tripe.cpp(73): error C2086: 'int string': redefinition
+  Tripe.cpp(30): note: see declaration of 'string'
+Tripe.cpp(73): error C2146: syntax error: missing ';' before identifier 'toStringCons'
+Tripe.cpp(73): error C2143: syntax error: missing ';' before '{'
+Tripe.cpp(73): error C2447: '{': missing function header (old-style formal list?)
   ui_utils.cpp
 ui_utils.cpp(8): error C2653: 'ui_utils': is not a class or namespace name
 ui_utils.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
@@ -477,48 +793,101 @@ ui_utils.cpp(77): error C2143: syntax error: missing ';' before '{'
 ui_utils.cpp(77): error C2447: '{': missing function header (old-style formal list?)
   Utilizador.cpp
 Utilizador.cpp(4): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Utilizador.cpp(7): warning C4508: 'Utilizador': function should return a value; 'void' return type assumed
-Utilizador.cpp(9): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(10): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Utilizador.cpp(10): error C2084: function 'int Utilizador(void)' already has a body
-  Utilizador.cpp(4): note: see previous definition of 'Utilizador'
-Utilizador.cpp(14): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(4): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Utilizador.cpp(6): warning C4508: 'Utilizador': function should return a value; 'void' return type assumed
+Utilizador.cpp(8): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(8): error C2061: syntax error: identifier 'string'
+Utilizador.cpp(8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Utilizador.cpp(10): error C3861: 'setID': identifier not found
+Utilizador.cpp(11): error C2065: 'nome': undeclared identifier
+Utilizador.cpp(11): error C3861: 'setNome': identifier not found
+Utilizador.cpp(12): error C2065: 'nContrib': undeclared identifier
+Utilizador.cpp(12): error C3861: 'setNContrib': identifier not found
+Utilizador.cpp(13): error C2065: 'morada': undeclared identifier
+Utilizador.cpp(13): error C3861: 'setMorada': identifier not found
+Utilizador.cpp(14): error C2065: 'tlf': undeclared identifier
+Utilizador.cpp(14): error C3861: 'setTlf': identifier not found
+Utilizador.cpp(15): error C2065: 'email': undeclared identifier
+Utilizador.cpp(15): error C3861: 'setEmail': identifier not found
+Utilizador.cpp(16): error C2065: 'categoria': undeclared identifier
+Utilizador.cpp(16): error C3861: 'setCategoria': identifier not found
+Utilizador.cpp(17): warning C4508: 'Utilizador': function should return a value; 'void' return type assumed
 Utilizador.cpp(19): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(19): error C2065: 'U': undeclared identifier
+Utilizador.cpp(19): error C2563: mismatch in formal parameter list
 Utilizador.cpp(19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Utilizador.cpp(19): error C2146: syntax error: missing ';' before identifier 'getNome'
-Utilizador.cpp(20): error C2143: syntax error: missing ';' before '{'
-Utilizador.cpp(20): error C2447: '{': missing function header (old-style formal list?)
-Utilizador.cpp(24): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(29): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(29): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Utilizador.cpp(29): error C2086: 'int string': redefinition
-  Utilizador.cpp(19): note: see declaration of 'string'
-Utilizador.cpp(29): error C2146: syntax error: missing ';' before identifier 'getMorada'
-Utilizador.cpp(30): error C2143: syntax error: missing ';' before '{'
-Utilizador.cpp(30): error C2447: '{': missing function header (old-style formal list?)
+Utilizador.cpp(19): error C2365: 'Utilizador': redefinition; previous definition was 'function'
+Utilizador.cpp(19): error C2448: 'Utilizador': function-style initializer appears to be a function definition
+Utilizador.cpp(30): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Utilizador.cpp(30): error C2084: function 'int Utilizador(void)' already has a body
+  Utilizador.cpp(4): note: see previous definition of 'Utilizador'
 Utilizador.cpp(34): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(39): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(39): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-Utilizador.cpp(39): error C2086: 'int string': redefinition
-  Utilizador.cpp(19): note: see declaration of 'string'
-Utilizador.cpp(39): error C2146: syntax error: missing ';' before identifier 'getEmail'
-Utilizador.cpp(40): error C2143: syntax error: missing ';' before '{'
-Utilizador.cpp(40): error C2447: '{': missing function header (old-style formal list?)
-Utilizador.cpp(44): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(49): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(53): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(53): error C2146: syntax error: missing ')' before identifier 'n'
+Utilizador.cpp(35): error C2065: 'id': undeclared identifier
+Utilizador.cpp(38): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(38): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Utilizador.cpp(38): error C2146: syntax error: missing ';' before identifier 'getNome'
+Utilizador.cpp(38): error C2143: syntax error: missing ';' before '{'
+Utilizador.cpp(38): error C2447: '{': missing function header (old-style formal list?)
+Utilizador.cpp(42): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(43): error C2065: 'nContrib': undeclared identifier
+Utilizador.cpp(46): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Utilizador.cpp(46): error C2086: 'int string': redefinition
+  Utilizador.cpp(38): note: see declaration of 'string'
+Utilizador.cpp(46): error C2146: syntax error: missing ';' before identifier 'getMorada'
+Utilizador.cpp(46): error C2143: syntax error: missing ';' before '{'
+Utilizador.cpp(46): error C2447: '{': missing function header (old-style formal list?)
+Utilizador.cpp(50): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(51): error C2065: 'tlf': undeclared identifier
+Utilizador.cpp(54): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(54): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Utilizador.cpp(54): error C2086: 'int string': redefinition
+  Utilizador.cpp(38): note: see declaration of 'string'
+Utilizador.cpp(54): error C2146: syntax error: missing ';' before identifier 'getEmail'
 Utilizador.cpp(54): error C2143: syntax error: missing ';' before '{'
 Utilizador.cpp(54): error C2447: '{': missing function header (old-style formal list?)
-Utilizador.cpp(57): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(61): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(61): error C2146: syntax error: missing ')' before identifier 'm'
-Utilizador.cpp(62): error C2143: syntax error: missing ';' before '{'
-Utilizador.cpp(62): error C2447: '{': missing function header (old-style formal list?)
-Utilizador.cpp(65): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(69): error C2653: 'Utilizador': is not a class or namespace name
-Utilizador.cpp(69): error C2146: syntax error: missing ')' before identifier 'e'
-Utilizador.cpp(70): error C2143: syntax error: missing ';' before '{'
-Utilizador.cpp(70): error C2447: '{': missing function header (old-style formal list?)
-Utilizador.cpp(73): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(58): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(59): error C2065: 'categoria': undeclared identifier
+Utilizador.cpp(62): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(63): error C2065: 'id': undeclared identifier
+Utilizador.cpp(66): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(66): error C2146: syntax error: missing ')' before identifier 'n'
+Utilizador.cpp(66): error C2143: syntax error: missing ';' before '{'
+Utilizador.cpp(66): error C2447: '{': missing function header (old-style formal list?)
+Utilizador.cpp(70): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(71): error C2065: 'nContrib': undeclared identifier
+Utilizador.cpp(74): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(74): error C2146: syntax error: missing ')' before identifier 'm'
+Utilizador.cpp(74): error C2143: syntax error: missing ';' before '{'
+Utilizador.cpp(74): error C2447: '{': missing function header (old-style formal list?)
+Utilizador.cpp(78): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(79): error C2065: 'tlf': undeclared identifier
+Utilizador.cpp(82): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(82): error C2146: syntax error: missing ')' before identifier 'e'
+Utilizador.cpp(82): error C2143: syntax error: missing ';' before '{'
+Utilizador.cpp(82): error C2447: '{': missing function header (old-style formal list?)
+Utilizador.cpp(86): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(87): error C2065: 'categoria': undeclared identifier
+Utilizador.cpp(87): error C2065: 'cat': undeclared identifier
+Utilizador.cpp(90): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(90): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Utilizador.cpp(90): error C2086: 'int string': redefinition
+  Utilizador.cpp(38): note: see declaration of 'string'
+Utilizador.cpp(90): error C2146: syntax error: missing ';' before identifier 'toString'
+Utilizador.cpp(90): error C2143: syntax error: missing ';' before '{'
+Utilizador.cpp(90): error C2447: '{': missing function header (old-style formal list?)
+Utilizador.cpp(94): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(94): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Utilizador.cpp(94): error C2086: 'int string': redefinition
+  Utilizador.cpp(38): note: see declaration of 'string'
+Utilizador.cpp(94): error C2146: syntax error: missing ';' before identifier 'toStringFull'
+Utilizador.cpp(94): error C2143: syntax error: missing ';' before '{'
+Utilizador.cpp(94): error C2447: '{': missing function header (old-style formal list?)
+Utilizador.cpp(108): error C2653: 'Utilizador': is not a class or namespace name
+Utilizador.cpp(108): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+Utilizador.cpp(108): error C2086: 'int string': redefinition
+  Utilizador.cpp(38): note: see declaration of 'string'
+Utilizador.cpp(108): error C2146: syntax error: missing ';' before identifier 'toStringCons'
+Utilizador.cpp(108): error C2143: syntax error: missing ';' before '{'
+Utilizador.cpp(108): error C2447: '{': missing function header (old-style formal list?)

@@ -11,7 +11,7 @@ class Stock
 {
     public:
         Stock();
-		Stock(Utilizador v, Produto p, float p; bool n; int ur);
+		Stock(int i, Utilizador v, Produto p, float pc, bool n, int ur);
 		Stock(Stock &s);
         virtual ~Stock();
 
@@ -21,7 +21,7 @@ class Stock
 		Produto getProduto();
 		int getPreco();
 		bool isNovo();
-		int getUnRestantes()
+		int getUnRestantes();
 
 		//set
 		void setID(int i);

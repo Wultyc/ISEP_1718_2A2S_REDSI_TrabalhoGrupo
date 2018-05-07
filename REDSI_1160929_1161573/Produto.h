@@ -11,6 +11,12 @@ class Produto
         Produto();
         virtual ~Produto();
 
+		virtual string toString(bool n);
+		virtual int getID();
+		virtual string getMarca();
+		virtual string getModelo();
+
+
     private:
 		
 };

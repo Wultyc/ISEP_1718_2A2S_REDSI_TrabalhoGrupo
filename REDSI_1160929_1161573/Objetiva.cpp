@@ -116,11 +116,11 @@ string Objetiva::toStringFull() {
 	r += "\nMarca: " + getMarca();
 	r += "\nModelo: " + getModelo();
 	r += "\nTipo: " + getTipo();
-	r += "\nZoom Max: " + getZoomMax();
-	r += "\nZoom Min: " + getZoomMin();
-	r += "\nAbr Max: " + getAbrMax();
-	r += "\nAbr Min: " + getAbrMin();
-	r += "\nPeso: " + getPeso() + "g";
+	r += "\nZoom Max: " + to_string(getZoomMax());
+	r += "\nZoom Min: " + to_string(getZoomMin());
+	r += "\nAbr Max: " + to_string(getAbrMax());
+	r += "\nAbr Min: " + to_string(getAbrMin());
+	r += "\nPeso: " + to_string(getPeso()) + "g";
 
 	return r;
 }
@@ -132,11 +132,11 @@ string Objetiva::toStringCons() {
 	r += "\t| " + getMarca();
 	r += "\t| " + getModelo();
 	r += "\t| " + getTipo();
-	r += "\t| " + getZoomMax();
-	r += "\t| " + getZoomMin();
-	r += "\t| " + getAbrMax();
-	r += "\t| " + getAbrMin();
-	r += "\t| " + getPeso() + "g";
+	r += "\t| " + to_string(getZoomMax());
+	r += "\t| " + to_string(getZoomMin());
+	r += "\t| " + to_string(getAbrMax());
+	r += "\t| " + to_string(getAbrMin());
+	r += "\t| " + to_string(getPeso()) + "g";
 
 	return r;
 }

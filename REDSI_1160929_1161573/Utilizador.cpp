@@ -23,7 +23,7 @@ Utilizador::Utilizador(Utilizador &U){
 	setNContrib(U.getNContrib());
 	setMorada(U.getMorada());
 	setTlf(U.getTlf());
-	setEmail(U.getIEmail());
+	setEmail(U.getEmail());
 	setCategoria(U.getCategoria());
 }
 
@@ -96,9 +96,9 @@ string Utilizador::toStringFull(){
 
 	r =  "ID: " + getID();
 	r += "\nNome: " + getNome();
-	r += "\nN Contrib.: " + getNContrib();
+	r += "\nN Contrib.: " + to_string(getNContrib());
 	r += "\nMorada: " + getMorada();
-	r += "\nTlf: " + getTlf() + "g";
+	r += "\nTlf: " + to_string(getTlf()) + "g";
 	r += "\nEmail: " + getEmail() + "g";
 	r += "\nCategoria: " + getCategoria() ? "Cliente" : "Vendedor";
 
@@ -110,9 +110,9 @@ string Utilizador::toStringCons(){
 
 	r = getID();
 	r += "\t| " + getNome();
-	r += "\t| " + getNContrib();
+	r += "\t| " + to_string(getNContrib());
 	r += "\t| " + getMorada();
-	r += "\t| " + getTlf();
+	r += "\t| " + to_string(getTlf());
 	r += "\t| " + getEmail();
 	r += "\t| " + getCategoria() ? "Vendedor" : "Cliente";
 

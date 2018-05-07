@@ -4,12 +4,12 @@
 Stock::Stock(){
     //ctor
 }
-Stock::Stock(int i, Utilizador v, Produto p, float p; bool n; int ur){
+Stock::Stock(int i, Utilizador v, Produto p, float pc, bool n, int ur){
     //ctor
 	setID(i);
 	setVendedor(v);
 	setProduto(p);
-	setPreco(p);
+	setPreco(pc);
 	setNovo(n);
 	setUnRestantes(ur);
 }
@@ -27,7 +27,7 @@ Stock::~Stock(){
     //dtor
 }
 
-Utilizador Stock::getID(){
+int Stock::getID(){
 	return id;
 }
 Utilizador Stock::getVendedor(){
@@ -75,9 +75,9 @@ string Stock::toStringFull(){
 	r =  "ID: " + getID();
 	r += "\nVendedor: " + getVendedor().toString(true);
 	r += "\nProduto: " + getProduto().toString(true);
-	r += "\nPreco: " + getPreco() + "e";
+	r += "\nPreco: " + to_string(getPreco()) + "e";
 	r += "\nEstado: " + isNovo() ? "Novo":"Usado";
-	r += "\nUn. Restantes: " + unRestantes();
+	r += "\nUn. Restantes: " + to_string(getUnRestantes());
 
 	return r;
 }
@@ -87,10 +87,10 @@ string Stock::toStringCons(){
 
 	r = getID();
 	r += "\t| " + getVendedor().getNome() + "(" + getVendedor().getID() + ")";
-	r += "\t| " + getProduto().getMarca() + " " + getProduto.getModelo() + "(" + getProduto().getID() + ")";
-	r += "\t| " + getPreco() + "e";
+	r += "\t| " + getProduto().getMarca() + " " + getProduto().getModelo() + "(" + getProduto().getID() + ")";
+	r += "\t| " + to_string(getPreco()) + "e";
 	r += "\t| " + isNovo() ? "Novo":"Usado";
-	r += "\t| " + unRestantes();
+	r += "\t| " + getUnRestantes();
 
 	return r;
 }

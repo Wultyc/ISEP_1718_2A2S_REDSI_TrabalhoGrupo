@@ -66,7 +66,7 @@ string Flash::toStringFull(){
 	r =  "ID: " + getID();
 	r += "\nMarca: " + getMarca();
 	r += "\nModelo: " + getModelo();
-	r += "\nPeso: " + getPeso() + "g";
+	r += "\nPeso: " + to_string(getPeso()) + "g";
 
 	return r;
 }
@@ -77,7 +77,7 @@ string Flash::toStringCons(){
 	r = getID();
 	r += "\t| " + getMarca();
 	r += "\t| " + getModelo();
-	r += "\t| " + getPeso() + "g";
+	r += "\t| " + to_string(getPeso()) + "g";
 
 	return r;
 }

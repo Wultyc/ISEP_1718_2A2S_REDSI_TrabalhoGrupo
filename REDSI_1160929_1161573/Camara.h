@@ -6,8 +6,7 @@
 
 using namespace std;
 
-class Camara : public Produto
-{
+class Camara : public Produto{
     public:
         Camara();
 		Camara(int i, string m, string mo, string s, float p);
