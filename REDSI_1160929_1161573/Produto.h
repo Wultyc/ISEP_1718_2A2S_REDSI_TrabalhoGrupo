@@ -16,8 +16,13 @@ class Produto
 		virtual string getMarca();
 		virtual string getModelo();
 
+		virtual bool operator == (Produto *p) const;
+
 
     private:
+		int id;
+		string marca;
+		string modelo;
 		
 };
 

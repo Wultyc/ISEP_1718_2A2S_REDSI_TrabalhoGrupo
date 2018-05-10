@@ -30,6 +30,8 @@ class Tripe : public Produto
 		string toStringFull();
 		string toStringCons();
 
+		bool operator == (Tripe *t) const;
+
     private:
 		int id;
 		string marca;

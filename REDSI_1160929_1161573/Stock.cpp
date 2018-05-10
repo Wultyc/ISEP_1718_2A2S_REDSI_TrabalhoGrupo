@@ -36,7 +36,7 @@ Utilizador Stock::getVendedor(){
 Produto Stock::getProduto(){
 	return produto;
 }
-int Stock::getPreco(){
+float Stock::getPreco(){
 	return preco;
 }
 bool Stock::isNovo(){
@@ -55,7 +55,7 @@ void Stock::setVendedor(Utilizador v){
 void Stock::setProduto(Produto v){
 	produto = v;
 }
-void Stock::setPreco(int p){
+void Stock::setPreco(float p){
 	preco = p;
 }
 void Stock::setNovo(bool n){
@@ -86,11 +86,15 @@ string Stock::toStringCons(){
 	string r;
 
 	r = getID();
-	r += "\t| " + getVendedor().getNome() + "(" + getVendedor().getID() + ")";
-	r += "\t| " + getProduto().getMarca() + " " + getProduto().getModelo() + "(" + getProduto().getID() + ")";
+	r += "\t| " + getVendedor().getNome() + "(" + to_string(getVendedor().getID()) + ")";
+	r += "\t| " + getProduto().getMarca() + " " + getProduto().getModelo() + "(" + to_string(getProduto().getID()) + ")";
 	r += "\t| " + to_string(getPreco()) + "e";
 	r += "\t| " + isNovo() ? "Novo":"Usado";
 	r += "\t| " + getUnRestantes();
 
 	return r;
+}
+
+bool Stock::operator==(Stock * s) const{
+	return (id == s->getID()) ? true : false;
 }

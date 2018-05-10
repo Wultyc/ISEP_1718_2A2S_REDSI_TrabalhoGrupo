@@ -11,67 +11,73 @@ TrabalhoFotografico::~TrabalhoFotografico()
     //dtor
 }
 
+int TrabalhoFotografico::getID() {
+	return id;
+}
+
 Camara TrabalhoFotografico::getcamara()
 {
-	return Camara();
+	return camara;
 }
 
 list<Objetiva> TrabalhoFotografico::getobjetivas()
 {
-	return list<Objetiva>();
+	return objetivas;
 }
 
 list<Flash> TrabalhoFotografico::getflashs()
 {
-	return list<Flash>();
+	return flashs;
 }
 
 list<Tripe> TrabalhoFotografico::gettripes()
 {
-	return list<Tripe>();
+	return tripes;
 }
 
 string TrabalhoFotografico::getDate()
 {
-	return string();
+	return to_string(year) + "-" + to_string(month) + "-" + to_string(day);
 }
 
-void TrabalhoFotografico::setCamara(Camara cam)
-{
-	
+void TrabalhoFotografico::setID(int i){
+	id = i;
 }
 
-bool TrabalhoFotografico::addObjetiva(Objetiva obj)
-{
-	return false;
+void TrabalhoFotografico::setCamara(Camara cam){
+	camara = cam;
 }
 
-bool TrabalhoFotografico::addFlash(Flash flash)
-{
-	return false;
+void TrabalhoFotografico::addObjetiva(Objetiva obj){
+	objetivas.push_back(obj);
 }
 
-bool TrabalhoFotografico::addTripe(Tripe tripe)
-{
-	return false;
+void TrabalhoFotografico::addFlash(Flash flash){
+	flashs.push_back(flash);
 }
 
-bool TrabalhoFotografico::setDate(int d, int m, int y)
-{
-	return false;
+void TrabalhoFotografico::addTripe(Tripe tripe){
+	tripes.push_back(tripe);
 }
 
-bool TrabalhoFotografico::delObjetiva(Objetiva obj)
-{
-	return false;
+void TrabalhoFotografico::setDate(int d, int m, int y){
+	day = d;
+	month = m;
+	year = y;
 }
 
-bool TrabalhoFotografico::delFlash(Flash flash)
-{
-	return false;
+void TrabalhoFotografico::delObjetiva(Objetiva obj){
+	return ;
 }
 
-bool TrabalhoFotografico::delTripe(Tripe tripe)
-{
-	return false;
+void TrabalhoFotografico::delFlash(Flash flash){
+	return ;
+}
+
+void TrabalhoFotografico::delTripe(Tripe tripe){
+	return ;
+}
+
+bool TrabalhoFotografico::operator==(TrabalhoFotografico *t) const{
+	return (id == t -> getID()) ? true : false;
 }

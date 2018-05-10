@@ -25,3 +25,7 @@ string Produto::getMarca(){
 string Produto::getModelo(){
 	return 0;
 }
+
+bool Produto::operator==(Produto *p) const{
+	return (id == p->getID()) ? true : false;
+}

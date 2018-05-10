@@ -118,3 +118,7 @@ string Utilizador::toStringCons(){
 
 	return r;
 }
+
+bool Utilizador::operator==(Utilizador *u) const{
+	return (id == u->getID()) ? true : false;
+}

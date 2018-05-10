@@ -95,3 +95,7 @@ string Camara::toStringCons(){
 	return r;
 }
 
+bool Camara::operator==(Camara *c) const{
+	return (id == c->getID()) ? true : false;
+}
+

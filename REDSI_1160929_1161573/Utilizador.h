@@ -35,6 +35,8 @@ class Utilizador
 		string toStringFull();
 		string toStringCons();
 
+		bool operator == (Utilizador *u) const;
+
     private:
 		int id;
 		string nome;

@@ -19,7 +19,7 @@ class Stock
 		int getID();
 		Utilizador getVendedor();
 		Produto getProduto();
-		int getPreco();
+		float getPreco();
 		bool isNovo();
 		int getUnRestantes();
 
@@ -27,7 +27,7 @@ class Stock
 		void setID(int i);
 		void setVendedor(Utilizador v);
 		void setProduto(Produto p);
-		void setPreco(int p);
+		void setPreco(float p);
 		void setNovo(bool n);
 		void setUnRestantes(int ur);
 		
@@ -35,13 +35,15 @@ class Stock
 		string toStringFull();
 		string toStringCons();
 
+		bool operator == (Stock *s) const;
+
     private:
 		int id;
 	
 		Utilizador vendedor;
 		Produto produto;
 
-		int preco;
+		float preco;
 		bool novo;
 		int unRestantes;
 };

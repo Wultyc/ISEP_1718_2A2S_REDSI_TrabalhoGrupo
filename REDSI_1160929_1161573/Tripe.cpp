@@ -80,3 +80,7 @@ string Tripe::toStringCons(){
 
 	return r;
 }
+
+bool Tripe::operator==(Tripe *t) const{
+	return (id == t -> getID()) ? true : false;
+}

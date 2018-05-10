@@ -29,6 +29,8 @@ class Flash : public Produto
 		string toStringFull();
 		string toStringCons();
 
+		bool operator == (Flash *f) const;
+
     private:
 		int id;
 		string marca;

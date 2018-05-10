@@ -140,3 +140,7 @@ string Objetiva::toStringCons() {
 
 	return r;
 }
+
+bool Objetiva::operator==(Objetiva *o) const{
+	return (id == o->getID()) ? true : false;
+}

@@ -81,3 +81,7 @@ string Flash::toStringCons(){
 
 	return r;
 }
+
+bool Flash::operator==(Flash *f) const{
+	return (id == f->getID()) ? true : false;
+}

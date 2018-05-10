@@ -40,6 +40,8 @@ class Objetiva : public Produto
 		string toStringFull();
 		string toStringCons();
 
+		bool operator == (Objetiva *o) const;
+
     private:
 		int id;
 		string marca;

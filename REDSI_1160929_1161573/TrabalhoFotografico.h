@@ -17,6 +17,7 @@ class TrabalhoFotografico
         virtual ~TrabalhoFotografico();
 
 		//gets
+		int getID();
 		Camara getcamara();
 		list<Objetiva> getobjetivas();
 		list<Flash> getflashs();
@@ -24,19 +25,24 @@ class TrabalhoFotografico
 		string getDate();
 
 		//sets
+		void setID(int i);
 		void setCamara(Camara cam);
-		bool addObjetiva(Objetiva obj);
-		bool addFlash(Flash flash);
-		bool addTripe(Tripe tripe);
-		bool setDate(int d, int m, int y);
+		void addObjetiva(Objetiva obj);
+		void addFlash(Flash flash);
+		void addTripe(Tripe tripe);
+		void setDate(int d, int m, int y);
 
 		//remove
-		bool delObjetiva(Objetiva obj);
-		bool delFlash(Flash flash);
-		bool delTripe(Tripe tripe);
+		void delObjetiva(Objetiva obj);
+		void delFlash(Flash flash);
+		void delTripe(Tripe tripe);
+
+		bool operator == (TrabalhoFotografico *t) const;
 
 
     private:
+		int id;
+
 		Camara camara;
 		list<Objetiva> objetivas;
 		list<Flash> flashs;

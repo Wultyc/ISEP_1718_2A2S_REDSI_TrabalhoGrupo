@@ -31,6 +31,8 @@ class Camara : public Produto{
 		string toStringFull();
 		string toStringCons();
 
+		bool operator == (Camara *c) const;
+
     private:
 		int id;
 		string marca;
