@@ -26,7 +26,7 @@ class ListaTripe : public ListaProdutos
 
     private:
 		list<Tripe> tripe;
-		vector<int> cd;
+		list<Tripe> cd;
 
 };
 

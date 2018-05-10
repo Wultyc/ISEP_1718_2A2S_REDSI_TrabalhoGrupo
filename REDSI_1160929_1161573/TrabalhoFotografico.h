@@ -13,7 +13,7 @@ using namespace std;
 class TrabalhoFotografico
 {
     public:
-        TrabalhoFotografico();
+		TrabalhoFotografico();
         virtual ~TrabalhoFotografico();
 
 		//gets

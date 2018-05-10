@@ -25,7 +25,7 @@ class ListaObjetivas : public ListaProdutos
 		bool exportDeleteData();
     private:
 		list<Objetiva> tripe;
-		vector<int> cd;
+		list<Objetiva> cd;
 		
 };
 

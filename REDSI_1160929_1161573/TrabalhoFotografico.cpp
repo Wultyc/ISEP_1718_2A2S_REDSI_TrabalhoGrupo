@@ -1,13 +1,11 @@
 #include "TrabalhoFotografico.h"
 #include "stdafx.h"
 
-TrabalhoFotografico::TrabalhoFotografico()
-{
+TrabalhoFotografico::TrabalhoFotografico(){
     //ctor
 }
 
-TrabalhoFotografico::~TrabalhoFotografico()
-{
+TrabalhoFotografico::~TrabalhoFotografico() {
     //dtor
 }
 
@@ -67,15 +65,15 @@ void TrabalhoFotografico::setDate(int d, int m, int y){
 }
 
 void TrabalhoFotografico::delObjetiva(Objetiva obj){
-	return ;
+	objetivas.remove(obj);
 }
 
 void TrabalhoFotografico::delFlash(Flash flash){
-	return ;
+	flashs.remove(flash);
 }
 
 void TrabalhoFotografico::delTripe(Tripe tripe){
-	return ;
+	tripes.remove(tripe);
 }
 
 bool TrabalhoFotografico::operator==(TrabalhoFotografico *t) const{

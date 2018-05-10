@@ -25,7 +25,7 @@ class ListaStock : public ListaProdutos
 		bool exportDeleteData();
     private:
 		list<Stock> tripe;
-		vector<int> cd;
+		list<Stock> cd;
 };
 
 #endif // LISTASTOCK_H

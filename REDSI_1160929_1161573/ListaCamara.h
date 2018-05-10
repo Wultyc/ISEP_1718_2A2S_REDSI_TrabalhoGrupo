@@ -25,7 +25,7 @@ class ListaCamaras : public ListaProdutos
 		bool exportDeleteData();
     private:
 		list<Camara> tripe;
-		vector<int> cd;
+		list<Camara> cd;
 };
 
 #endif // LISTACAMARAS_H

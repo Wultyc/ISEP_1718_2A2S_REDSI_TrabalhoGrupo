@@ -25,7 +25,7 @@ class ListaFlash : public ListaProdutos
 		bool exportDeleteData();
     private:
 		list<Flash> tripe;
-		vector<int> cd;
+		list<Flash> cd;
 };
 
 #endif // LISTAFLASH_H
