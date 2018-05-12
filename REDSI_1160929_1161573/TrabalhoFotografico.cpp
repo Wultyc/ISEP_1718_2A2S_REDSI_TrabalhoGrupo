@@ -76,15 +76,36 @@ void TrabalhoFotografico::setDate(int d, int m, int y){
 }
 
 void TrabalhoFotografico::delObjetiva(Objetiva *obj){
-	objetivas->remove(*obj);
+	for (auto it = objetivas->begin(); it != objetivas->end(); ) {
+		if (*it == obj) {
+			it = objetivas->erase(it);
+		}
+		else {
+			++it;
+		}
+	}
 }
 
 void TrabalhoFotografico::delFlash(Flash *flash){
-	flashs->remove(*flash);
+	for (auto it = flashs->begin(); it != flashs->end(); ) {
+		if (*it == flash) {
+			it = flashs->erase(it);
+		}
+		else {
+			++it;
+		}
+	}
 }
 
 void TrabalhoFotografico::delTripe(Tripe *tripe){
-	tripes->remove(*tripe);
+	for (auto it = tripes->begin(); it != tripes->end(); ) {
+		if (*it == tripe) {
+			it = tripes->erase(it);
+		}
+		else {
+			++it;
+		}
+	}
 }
 
 bool TrabalhoFotografico::operator==(TrabalhoFotografico *t) const{
