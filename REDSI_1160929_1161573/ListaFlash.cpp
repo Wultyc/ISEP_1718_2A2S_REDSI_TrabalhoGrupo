@@ -3,56 +3,61 @@
 
 using namespace std;
 
-ListaFlash::ListaFlash()
-{
+ListaFlash::ListaFlash(){
     //ctor
 }
 
-ListaFlash::~ListaFlash()
-{
+ListaFlash::~ListaFlash(){
     //dtor
 }
 
-list<Produto> ListaFlash::getList()
-{
-}
+/*list<Produto> ListaFlash::getList(){
+}*/
 
-bool ListaFlash::importdata()
-{
+bool ListaFlash::importdata(){
+	//Código SQL
 	return false;
 }
 
-bool ListaFlash::insertElement()
-{
+bool ListaFlash::insertElement(Flash *f){
+	insertList->push_back(*f);
+	return true;
+}
+
+bool ListaFlash::updateElement(Flash *f){
+	insertList->push_back(*f);
+	return true;
+}
+
+bool ListaFlash::deleteElement(Flash *f){
+	deleteList->push_back(*f);
+	return true;
+}
+
+bool ListaFlash::exportData(){
+	bool insertTask, updateTask, deleteTask;
+	insertTask = exportInsertData();
+	updateTask = exportUpdateData();
+	deleteTask = exportDeleteData();
+	return (insertTask && updateTask && deleteTask);
+}
+
+bool ListaFlash::exportInsertData(){
+	//Código SQL
 	return false;
 }
 
-bool ListaFlash::updateElement()
-{
+bool ListaFlash::exportUpdateData(){
+	//Código SQL
+
+	for (int i = 0; i < flashs->size(); i++) {
+		flashs->push_back(updateList->at(i));
+	}
+
 	return false;
 }
 
-bool ListaFlash::deleteElement()
-{
-	return false;
-}
-
-bool ListaFlash::exportData()
-{
-	return false;
-}
-
-bool ListaFlash::exportInsertData()
-{
-	return false;
-}
-
-bool ListaFlash::exportUpdateData()
-{
-	return false;
-}
-
-bool ListaFlash::exportDeleteData()
-{
+bool ListaFlash::exportDeleteData(){
+	//Código SQL
 	return false;
 }

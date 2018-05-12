@@ -3,56 +3,58 @@
 
 using namespace std;
 
-ListaStock::ListaStock()
-{
+ListaStock::ListaStock(){
     //ctor
 }
 
-ListaStock::~ListaStock()
-{
+ListaStock::~ListaStock(){
     //dtor
 }
 
-list<Produto> ListaStock::getList()
-{
-}
+/*list<Produto> ListaStock::getList(){
+}*/
 
-bool ListaStock::importdata()
-{
+bool ListaStock::importdata(){
+	//Código SQL
 	return false;
 }
 
-bool ListaStock::insertElement()
-{
+bool ListaStock::insertElement(Stock *s){
 	return false;
 }
 
-bool ListaStock::updateElement()
-{
+bool ListaStock::updateElement(Stock *s){
 	return false;
 }
 
-bool ListaStock::deleteElement()
-{
+bool ListaStock::deleteElement(Stock *s){
 	return false;
 }
 
-bool ListaStock::exportData()
-{
+bool ListaStock::exportData(){
+	bool insertTask, updateTask, deleteTask;
+	insertTask = exportInsertData();
+	updateTask = exportUpdateData();
+	deleteTask = exportDeleteData();
+	return (insertTask && updateTask && deleteTask);
+}
+
+bool ListaStock::exportInsertData(){
+	//Código SQL
 	return false;
 }
 
-bool ListaStock::exportInsertData()
-{
+bool ListaStock::exportUpdateData(){
+	//Código SQL
+
+	for (int i = 0; i < stocks->size(); i++) {
+		stocks->push_back(updateList->at(i));
+	}
+
 	return false;
 }
 
-bool ListaStock::exportUpdateData()
-{
-	return false;
-}
-
-bool ListaStock::exportDeleteData()
-{
+bool ListaStock::exportDeleteData(){
+	//Código SQL
 	return false;
 }

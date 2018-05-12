@@ -14,18 +14,20 @@ class ListaFlash : public ListaProdutos
     public:
         ListaFlash();
         virtual ~ListaFlash();
-		list<Produto> getList(); //tem de se mudar o tipo de dados
+		//list<Produto> getList(); //tem de se mudar o tipo de dados
 		bool importdata();
-		bool insertElement();
-		bool updateElement();
-		bool deleteElement();
+		bool insertElement(Flash *f);
+		bool updateElement(Flash *f);
+		bool deleteElement(Flash *f);
 		bool exportData();
 		bool exportInsertData();
 		bool exportUpdateData();
 		bool exportDeleteData();
     private:
-		list<Flash> tripe;
-		list<Flash> cd;
+		list<Flash> *flashs;
+		vector<Flash> *insertList;
+		vector<Flash> *updateList;
+		vector<Flash> *deleteList;
 };
 
 #endif // LISTAFLASH_H
