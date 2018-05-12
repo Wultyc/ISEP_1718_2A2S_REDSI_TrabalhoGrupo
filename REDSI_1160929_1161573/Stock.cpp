@@ -9,8 +9,8 @@ Stock::Stock(){
 Stock::Stock(int i, Utilizador v, Produto p, float pc, bool n, int ur){
     //ctor
 	setID(i);
-	setVendedor(v);
-	setProduto(p);
+	setVendedor(&v);
+	setProduto(&p);
 	setPreco(pc);
 	setNovo(n);
 	setUnRestantes(ur);
@@ -18,8 +18,8 @@ Stock::Stock(int i, Utilizador v, Produto p, float pc, bool n, int ur){
 Stock::Stock(Stock &s){
     //ctor
 	setID(s.getID());
-	setVendedor(s.getVendedor());
-	setProduto(s.getProduto());
+	setVendedor(&getVendedor());
+	setProduto(&getProduto());
 	setPreco(s.getPreco());
 	setNovo(s.isNovo());
 	setUnRestantes(s.getUnRestantes());
@@ -33,10 +33,10 @@ int Stock::getID(){
 	return id;
 }
 Utilizador Stock::getVendedor(){
-	return vendedor;
+	return *vendedor;
 }
 Produto Stock::getProduto(){
-	return produto;
+	return *produto;
 }
 float Stock::getPreco(){
 	return preco;
@@ -51,11 +51,11 @@ int Stock::getUnRestantes(){
 void Stock::setID(int i){
 	id = i;
 }
-void Stock::setVendedor(Utilizador v){
+void Stock::setVendedor(Utilizador *v){
 	vendedor = v;
 }
-void Stock::setProduto(Produto v){
-	produto = v;
+void Stock::setProduto(Produto *p){
+	produto = p;
 }
 void Stock::setPreco(float p){
 	preco = p;
