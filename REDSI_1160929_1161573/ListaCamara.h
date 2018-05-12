@@ -15,7 +15,7 @@ class ListaCamaras : public ListaProdutos
         ListaCamaras();
         virtual ~ListaCamaras();
 		//list<Produto> getList(); //tem de se mudar o tipo de dados
-		bool importdata();
+		bool importdata(string conditions);
 		bool insertElement(Camara *c);
 		bool updateElement(Camara *c);
 		bool deleteElement(Camara *c);
@@ -28,6 +28,7 @@ class ListaCamaras : public ListaProdutos
 		vector<Camara> *insertList;
 		vector<Camara> *updateList;
 		vector<Camara> *deleteList;
+		bool conditionalSearch;
 };
 
 #endif // LISTACAMARAS_H

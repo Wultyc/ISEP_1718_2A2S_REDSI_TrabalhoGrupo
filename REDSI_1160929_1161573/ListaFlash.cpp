@@ -14,9 +14,15 @@ ListaFlash::~ListaFlash(){
 /*list<Produto> ListaFlash::getList(){
 }*/
 
-bool ListaFlash::importdata(){
-	//Código SQL
-	return false;
+bool ListaFlash::importdata(string conditions) {
+	if (flashs->size() == 0 || conditionalSearch == true || conditions != "") {
+		//Código SQL
+
+		conditionalSearch = (conditions == "") ? true : false;
+		return false;
+	}
+
+	return true;
 }
 
 bool ListaFlash::insertElement(Flash *f){

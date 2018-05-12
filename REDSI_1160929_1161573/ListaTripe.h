@@ -14,7 +14,7 @@ class ListaTripe : public ListaProdutos
         ListaTripe();
         virtual ~ListaTripe();
 		//vector<Produto> getList();
-		bool importdata();
+		bool importdata(string conditions);
 		bool insertElement(Tripe *t);
 		bool updateElement(Tripe *t);
 		bool deleteElement(Tripe *t);
@@ -28,6 +28,7 @@ class ListaTripe : public ListaProdutos
 		vector<Tripe> *insertList;
 		vector<Tripe> *updateList;
 		vector<Tripe> *deleteList;
+		bool conditionalSearch;
 
 };
 

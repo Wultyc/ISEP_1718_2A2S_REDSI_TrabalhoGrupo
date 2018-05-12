@@ -14,9 +14,15 @@ ListaStock::~ListaStock(){
 /*list<Produto> ListaStock::getList(){
 }*/
 
-bool ListaStock::importdata(){
-	//Código SQL
-	return false;
+bool ListaStock::importdata(string conditions) {
+	if (stocks->size() == 0 || conditionalSearch == true || conditions != "") {
+		//Código SQL
+
+		conditionalSearch = (conditions == "") ? true : false;
+		return false;
+	}
+
+	return true;
 }
 
 bool ListaStock::insertElement(Stock *s){

@@ -15,7 +15,7 @@ class ListaStock : public ListaProdutos
         ListaStock();
         virtual ~ListaStock();
 		//list<Produto> getList(); //tem de se mudar o tipo de dados
-		bool importdata();
+		bool importdata(string conditions);
 		bool insertElement(Stock *s);
 		bool updateElement(Stock *s);
 		bool deleteElement(Stock *s);
@@ -28,6 +28,7 @@ class ListaStock : public ListaProdutos
 		vector<Stock> *insertList;
 		vector<Stock> *updateList;
 		vector<Stock> *deleteList;
+		bool conditionalSearch;
 };
 
 #endif // LISTASTOCK_H

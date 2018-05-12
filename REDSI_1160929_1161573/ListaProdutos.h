@@ -12,7 +12,7 @@ class ListaProdutos
         virtual ~ListaProdutos();
 
 		virtual list<Produto> getList(); //tem de se mudar o tipo de dados
-		virtual bool importdata();
+		virtual bool importdata(string conditions);
 		virtual bool insertElement();
 		virtual bool updateElement();
 		virtual bool deleteElement();
@@ -22,6 +22,7 @@ class ListaProdutos
 		virtual bool exportDeleteData();
 
     private:
+		bool conditionalSearch;
 };
 
 #endif // LISTAPRODUTOS_H

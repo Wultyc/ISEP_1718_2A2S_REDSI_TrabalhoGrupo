@@ -14,8 +14,14 @@ ListaCamaras::~ListaCamaras(){
 /*list<Produto> ListaCamaras::getList(){
 }*/
 
-bool ListaCamaras::importdata(){
-	//Código SQL
+bool ListaCamaras::importdata(string conditions) {
+	if (camaras->size() == 0 || conditionalSearch == true || conditions != "") {
+		//Código SQL
+
+		conditionalSearch = (conditions == "") ? true : false;
+		return false;
+	}
+
 	return true;
 }
 

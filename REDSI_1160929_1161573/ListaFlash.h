@@ -15,7 +15,7 @@ class ListaFlash : public ListaProdutos
         ListaFlash();
         virtual ~ListaFlash();
 		//list<Produto> getList(); //tem de se mudar o tipo de dados
-		bool importdata();
+		bool importdata(string conditions);
 		bool insertElement(Flash *f);
 		bool updateElement(Flash *f);
 		bool deleteElement(Flash *f);
@@ -28,6 +28,7 @@ class ListaFlash : public ListaProdutos
 		vector<Flash> *insertList;
 		vector<Flash> *updateList;
 		vector<Flash> *deleteList;
+		bool conditionalSearch;
 };
 
 #endif // LISTAFLASH_H

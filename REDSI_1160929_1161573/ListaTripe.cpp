@@ -15,9 +15,15 @@ ListaTripe::~ListaTripe(){
 	return *tripes;
 }*/
 
-bool ListaTripe::importdata(){
-	//Código SQL
-	return false;
+bool ListaTripe::importdata(string conditions){
+	if (tripes->size() == 0 || conditionalSearch == true || conditions != "") {
+		//Código SQL
+
+		conditionalSearch = (conditions == "") ? true : false;
+		return false;
+	}
+	
+	return true;
 }
 
 bool ListaTripe::insertElement(Tripe *t){

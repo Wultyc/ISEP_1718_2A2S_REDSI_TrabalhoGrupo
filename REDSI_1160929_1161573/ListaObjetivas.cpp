@@ -14,9 +14,15 @@ ListaObjetivas::~ListaObjetivas(){
 /*list<Produto> ListaObjetivas::getList(){
 }*/
 
-bool ListaObjetivas::importdata(){
-	//Código SQL
-	return false;
+bool ListaObjetivas::importdata(string conditions) {
+	if (objetivas->size() == 0 || conditionalSearch == true || conditions != "") {
+		//Código SQL
+
+		conditionalSearch = (conditions == "") ? true : false;
+		return false;
+	}
+
+	return true;
 }
 
 bool ListaObjetivas::insertElement(Objetiva *o){
