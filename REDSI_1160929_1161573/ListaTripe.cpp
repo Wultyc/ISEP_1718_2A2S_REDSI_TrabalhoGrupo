@@ -44,6 +44,11 @@ bool ListaTripe::exportData(){
 
 bool ListaTripe::exportInsertData(){
 	//Código SQL
+
+	for (int i = 0; i < tripes->size(); i++) {
+		tripes -> push_back(updateList->at(i));
+	}
+
 	return false;
 }
 

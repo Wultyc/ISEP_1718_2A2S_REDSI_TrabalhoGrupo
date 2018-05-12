@@ -3,56 +3,62 @@
 
 using namespace std;
 
-ListaObjetivas::ListaObjetivas()
-{
+ListaObjetivas::ListaObjetivas(){
     //ctor
 }
 
-ListaObjetivas::~ListaObjetivas()
-{
+ListaObjetivas::~ListaObjetivas(){
     //dtor
 }
 
-list<Produto> ListaObjetivas::getList()
-{
-}
+/*list<Produto> ListaObjetivas::getList(){
+}*/
 
-bool ListaObjetivas::importdata()
-{
+bool ListaObjetivas::importdata(){
+	//Código SQL
 	return false;
 }
 
-bool ListaObjetivas::insertElement()
-{
+bool ListaObjetivas::insertElement(Objetiva *o){
+	insertList->push_back(*o);
+	return true;
+}
+
+bool ListaObjetivas::updateElement(Objetiva *o){
+	updateList->push_back(*o);
+	return true;
+}
+
+bool ListaObjetivas::deleteElement(Objetiva *o){
+	deleteList->push_back(*o);
+	return true;
+}
+
+bool ListaObjetivas::exportData(){
+	bool insertTask, updateTask, deleteTask;
+	insertTask = exportInsertData();
+	updateTask = exportUpdateData();
+	deleteTask = exportDeleteData();
+	return (insertTask && updateTask && deleteTask);
+}
+
+bool ListaObjetivas::exportInsertData(){
+	//Código SQL
+
+	for (int i = 0; i < objetivas->size(); i++) {
+		objetivas->push_back(updateList->at(i));
+	}
+
+
 	return false;
 }
 
-bool ListaObjetivas::updateElement()
-{
+bool ListaObjetivas::exportUpdateData(){
+	//Código SQL
 	return false;
 }
 
-bool ListaObjetivas::deleteElement()
-{
-	return false;
-}
-
-bool ListaObjetivas::exportData()
-{
-	return false;
-}
-
-bool ListaObjetivas::exportInsertData()
-{
-	return false;
-}
-
-bool ListaObjetivas::exportUpdateData()
-{
-	return false;
-}
-
-bool ListaObjetivas::exportDeleteData()
-{
+bool ListaObjetivas::exportDeleteData(){
+	//Código SQL
 	return false;
 }
