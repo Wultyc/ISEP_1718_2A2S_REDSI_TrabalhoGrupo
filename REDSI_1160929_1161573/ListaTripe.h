@@ -2,7 +2,6 @@
 #define LISTATRIPE_H
 
 #include <string>
-#include <list>
 #include <vector>
 #include "ListaProdutos.h"
 #include "Produto.h"
@@ -14,19 +13,21 @@ class ListaTripe : public ListaProdutos
     public:
         ListaTripe();
         virtual ~ListaTripe();
-		list<Produto> getList(); //tem de se mudar o tipo de dados
+		//vector<Produto> getList();
 		bool importdata();
-		bool insertElement();
-		bool updateElement();
-		bool deleteElement();
+		bool insertElement(Tripe *t);
+		bool updateElement(Tripe *t);
+		bool deleteElement(Tripe *t);
 		bool exportData();
 		bool exportInsertData();
 		bool exportUpdateData();
 		bool exportDeleteData();
 
     private:
-		list<Tripe> tripe;
-		list<Tripe> cd;
+		vector<Tripe> *tripes;
+		vector<Tripe> *insertList;
+		vector<Tripe> *updateList;
+		vector<Tripe> *deleteList;
 
 };
 

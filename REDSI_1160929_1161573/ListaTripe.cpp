@@ -3,56 +3,56 @@
 
 using namespace std;
 
-ListaTripe::ListaTripe()
-{
+ListaTripe::ListaTripe(){
     //ctor
 }
 
-ListaTripe::~ListaTripe()
-{
+ListaTripe::~ListaTripe(){
     //dtor
 }
 
-list<Produto> ListaTripe::getList()
-{
-}
+/*vector<Produto> ListaTripe::getList(){
+	return *tripes;
+}*/
 
-bool ListaTripe::importdata()
-{
+bool ListaTripe::importdata(){
+	//Código SQL
 	return false;
 }
 
-bool ListaTripe::insertElement()
-{
+bool ListaTripe::insertElement(Tripe *t){
+	insertList-> push_back(*t);
+	return true;
+}
+
+bool ListaTripe::updateElement(Tripe *t){
+	insertList->push_back(*t);
+	return true;;
+}
+
+bool ListaTripe::deleteElement(Tripe *t){
 	return false;
 }
 
-bool ListaTripe::updateElement()
-{
+bool ListaTripe::exportData(){
+	bool insertTask, updateTask, deleteTask;
+	insertTask = exportInsertData();
+	updateTask = exportUpdateData();
+	deleteTask = exportDeleteData();
+	return (insertTask && updateTask && deleteTask);
+}
+
+bool ListaTripe::exportInsertData(){
+	//Código SQL
 	return false;
 }
 
-bool ListaTripe::deleteElement()
-{
+bool ListaTripe::exportUpdateData(){
+	//Código SQL
 	return false;
 }
 
-bool ListaTripe::exportData()
-{
-	return false;
-}
-
-bool ListaTripe::exportInsertData()
-{
-	return false;
-}
-
-bool ListaTripe::exportUpdateData()
-{
-	return false;
-}
-
-bool ListaTripe::exportDeleteData()
-{
+bool ListaTripe::exportDeleteData(){
+	//Código SQL
 	return false;
 }
