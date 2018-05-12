@@ -31,6 +31,7 @@ bool ListaTripe::updateElement(Tripe *t){
 }
 
 bool ListaTripe::deleteElement(Tripe *t){
+	deleteList->push_back(*t);
 	return false;
 }
 

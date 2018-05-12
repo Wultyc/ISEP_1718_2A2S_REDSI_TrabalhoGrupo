@@ -3,56 +3,60 @@
 
 using namespace std;
 
-ListaCamaras::ListaCamaras()
-{
+ListaCamaras::ListaCamaras(){
     //ctor
 }
 
-ListaCamaras::~ListaCamaras()
-{
+ListaCamaras::~ListaCamaras(){
     //dtor
 }
 
-list<Produto> ListaCamaras::getList()
-{
+/*list<Produto> ListaCamaras::getList(){
+}*/
+
+bool ListaCamaras::importdata(){
+	//Código SQL
+	return true;
 }
 
-bool ListaCamaras::importdata()
-{
+bool ListaCamaras::insertElement(Camara *c){
+	insertList->push_back(*c);
+	return true;
+}
+
+bool ListaCamaras::updateElement(Camara *c){
+	insertList->push_back(*c);
+	return true;
+}
+
+bool ListaCamaras::deleteElement(Camara *c){
+	deleteList->push_back(*t);
 	return false;
 }
 
-bool ListaCamaras::insertElement()
-{
+bool ListaCamaras::exportData(){
+	bool insertTask, updateTask, deleteTask;
+	insertTask = exportInsertData();
+	updateTask = exportUpdateData();
+	deleteTask = exportDeleteData();
+	return (insertTask && updateTask && deleteTask);
+}
+
+bool ListaCamaras::exportInsertData(){
+	//Código SQL
 	return false;
 }
 
-bool ListaCamaras::updateElement()
-{
+bool ListaCamaras::exportUpdateData(){
+	//Código SQL
+
+	for (int i = 0; i < camaras->size(); i++) {
+		camaras->push_back(updateList->at(i));
+	}
 	return false;
 }
 
-bool ListaCamaras::deleteElement()
-{
-	return false;
-}
-
-bool ListaCamaras::exportData()
-{
-	return false;
-}
-
-bool ListaCamaras::exportInsertData()
-{
-	return false;
-}
-
-bool ListaCamaras::exportUpdateData()
-{
-	return false;
-}
-
-bool ListaCamaras::exportDeleteData()
-{
+bool ListaCamaras::exportDeleteData(){
+	//Código SQL
 	return false;
 }

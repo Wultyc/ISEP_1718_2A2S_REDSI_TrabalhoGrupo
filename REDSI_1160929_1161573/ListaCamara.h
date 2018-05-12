@@ -14,18 +14,20 @@ class ListaCamaras : public ListaProdutos
     public:
         ListaCamaras();
         virtual ~ListaCamaras();
-		list<Produto> getList(); //tem de se mudar o tipo de dados
+		//list<Produto> getList(); //tem de se mudar o tipo de dados
 		bool importdata();
-		bool insertElement();
-		bool updateElement();
-		bool deleteElement();
+		bool insertElement(Camara *c);
+		bool updateElement(Camara *c);
+		bool deleteElement(Camara *c);
 		bool exportData();
 		bool exportInsertData();
 		bool exportUpdateData();
 		bool exportDeleteData();
     private:
-		list<Camara> tripe;
-		list<Camara> cd;
+		list<Camara> *camaras;
+		vector<Camara> *insertList;
+		vector<Camara> *updateList;
+		vector<Camara> *deleteList;
 };
 
 #endif // LISTACAMARAS_H
