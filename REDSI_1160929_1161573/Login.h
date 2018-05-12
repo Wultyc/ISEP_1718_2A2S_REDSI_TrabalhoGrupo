@@ -9,7 +9,8 @@ using namespace std;
 class Login
 {
     public:
-        Login();
+		Login();
+		Login(string un, string pw);
         virtual ~Login();
 
 		//get
@@ -18,12 +19,14 @@ class Login
 		string getPassword();
 
 		//set
-		void setUser(Utilizador us);
+		void setUser(Utilizador *us);
 		void setUsername(string un);
 		void setPassword(string pw);
 
+		bool validateLogin();
+
     private:
-		Utilizador user;
+		Utilizador *user;
 		string username;
 		string password;
 };
