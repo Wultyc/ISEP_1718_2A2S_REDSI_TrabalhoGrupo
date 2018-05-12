@@ -25,8 +25,8 @@ class Stock
 
 		//set
 		void setID(int i);
-		void setVendedor(Utilizador v);
-		void setProduto(Produto p);
+		void setVendedor(Utilizador *v);
+		void setProduto(Produto *p);
 		void setPreco(float p);
 		void setNovo(bool n);
 		void setUnRestantes(int ur);
@@ -40,8 +40,8 @@ class Stock
     private:
 		int id;
 	
-		Utilizador vendedor;
-		Produto produto;
+		Utilizador *vendedor;
+		Produto *produto;
 
 		float preco;
 		bool novo;
