@@ -1,6 +1,8 @@
 #include "Loja.h"
 #include "stdafx.h"
 
+using namespace std;
+
 Loja::Loja()
 {
     //ctor

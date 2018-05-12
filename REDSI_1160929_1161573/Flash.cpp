@@ -1,6 +1,8 @@
 #include "Flash.h"
 #include "stdafx.h"
 
+using namespace std;
+
 Flash::Flash(){
     //ctor
 }

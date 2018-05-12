@@ -1,6 +1,8 @@
 #include "Produto.h"
 #include "stdafx.h"
 
+using namespace std;
+
 Produto::Produto(){
     //ctor
 }

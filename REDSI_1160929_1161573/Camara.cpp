@@ -1,6 +1,8 @@
 #include "Camara.h"
 #include "stdafx.h"
 
+using namespace std;
+
 Camara::Camara(){
     //ctor
 }

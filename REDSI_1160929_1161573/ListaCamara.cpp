@@ -1,6 +1,8 @@
 #include "ListaCamara.h"
 #include "stdafx.h"
 
+using namespace std;
+
 ListaCamaras::ListaCamaras()
 {
     //ctor

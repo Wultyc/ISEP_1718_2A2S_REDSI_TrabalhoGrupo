@@ -72,9 +72,6 @@
     <ClInclude Include="Tripe.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ui_utils.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Utilizador.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -132,9 +129,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Tripe.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ui_utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Utilizador.cpp">

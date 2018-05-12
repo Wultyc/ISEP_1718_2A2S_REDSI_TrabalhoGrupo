@@ -1,6 +1,8 @@
 #include "TrabalhoFotografico.h"
 #include "stdafx.h"
 
+using namespace std;
+
 TrabalhoFotografico::TrabalhoFotografico(){
     //ctor
 }
@@ -16,6 +18,11 @@ int TrabalhoFotografico::getID() {
 Camara TrabalhoFotografico::getcamara()
 {
 	return camara;
+}
+
+Utilizador TrabalhoFotografico::getUtilizador()
+{
+	return *utilizador;
 }
 
 list<Objetiva> TrabalhoFotografico::getobjetivas()
@@ -42,20 +49,24 @@ void TrabalhoFotografico::setID(int i){
 	id = i;
 }
 
-void TrabalhoFotografico::setCamara(Camara cam){
+void TrabalhoFotografico::setUtilizador(Utilizador *u){
+	utilizador = u;
+}
+
+void TrabalhoFotografico::setCamara(Camara *cam){
 	camara = cam;
 }
 
-void TrabalhoFotografico::addObjetiva(Objetiva obj){
-	objetivas.push_back(obj);
+void TrabalhoFotografico::addObjetiva(Objetiva *obj){
+	objetivas->push_back(*obj);
 }
 
-void TrabalhoFotografico::addFlash(Flash flash){
-	flashs.push_back(flash);
+void TrabalhoFotografico::addFlash(Flash *flash){
+	flashs->push_back(*flash);
 }
 
-void TrabalhoFotografico::addTripe(Tripe tripe){
-	tripes.push_back(tripe);
+void TrabalhoFotografico::addTripe(Tripe *tripe){
+	tripes->push_back(*tripe);
 }
 
 void TrabalhoFotografico::setDate(int d, int m, int y){
@@ -64,16 +75,16 @@ void TrabalhoFotografico::setDate(int d, int m, int y){
 	year = y;
 }
 
-void TrabalhoFotografico::delObjetiva(Objetiva obj){
-	objetivas.remove(obj);
+void TrabalhoFotografico::delObjetiva(Objetiva *obj){
+	objetivas->remove(*obj);
 }
 
-void TrabalhoFotografico::delFlash(Flash flash){
-	flashs.remove(flash);
+void TrabalhoFotografico::delFlash(Flash *flash){
+	flashs->remove(*flash);
 }
 
-void TrabalhoFotografico::delTripe(Tripe tripe){
-	tripes.remove(tripe);
+void TrabalhoFotografico::delTripe(Tripe *tripe){
+	tripes->remove(*tripe);
 }
 
 bool TrabalhoFotografico::operator==(TrabalhoFotografico *t) const{

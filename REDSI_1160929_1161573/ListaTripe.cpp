@@ -1,6 +1,8 @@
 #include "ListaTripe.h"
 #include "stdafx.h"
 
+using namespace std;
+
 ListaTripe::ListaTripe()
 {
     //ctor

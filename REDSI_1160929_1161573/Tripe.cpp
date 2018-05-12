@@ -1,6 +1,8 @@
 #include "Tripe.h"
 #include "stdafx.h"
 
+using namespace std;
+
 Tripe::Tripe(){
     //ctor
 }

@@ -1,6 +1,8 @@
 #include "ListaStock.h"
 #include "stdafx.h"
 
+using namespace std;
+
 ListaStock::ListaStock()
 {
     //ctor

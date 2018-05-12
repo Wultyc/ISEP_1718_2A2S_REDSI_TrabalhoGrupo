@@ -1,6 +1,8 @@
 #include "ListaFlash.h"
 #include "stdafx.h"
 
+using namespace std;
+
 ListaFlash::ListaFlash()
 {
     //ctor

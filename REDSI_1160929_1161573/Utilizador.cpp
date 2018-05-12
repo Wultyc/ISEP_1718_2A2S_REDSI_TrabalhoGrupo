@@ -1,6 +1,8 @@
 #include "Utilizador.h"
 #include "stdafx.h"
 
+using namespace std;
+
 Utilizador::Utilizador(){
     //ctor
 }

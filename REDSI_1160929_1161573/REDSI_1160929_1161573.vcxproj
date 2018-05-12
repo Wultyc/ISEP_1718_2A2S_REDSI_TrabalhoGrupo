@@ -169,7 +169,6 @@
     <ClInclude Include="targetver.h" />
     <ClInclude Include="TrabalhoFotografico.h" />
     <ClInclude Include="Tripe.h" />
-    <ClInclude Include="ui_utils.h" />
     <ClInclude Include="Utilizador.h" />
   </ItemGroup>
   <ItemGroup>
@@ -199,7 +198,6 @@
     <ClCompile Include="Stock.cpp" />
     <ClCompile Include="TrabalhoFotografico.cpp" />
     <ClCompile Include="Tripe.cpp" />
-    <ClCompile Include="ui_utils.cpp" />
     <ClCompile Include="Utilizador.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,6 +1,8 @@
 #include "ListaObjetivas.h"
 #include "stdafx.h"
 
+using namespace std;
+
 ListaObjetivas::ListaObjetivas()
 {
     //ctor

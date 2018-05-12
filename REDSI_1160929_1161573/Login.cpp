@@ -1,6 +1,8 @@
 #include "Login.h"
 #include "stdafx.h"
 
+using namespace std;
+
 Login::Login()
 {
     //ctor

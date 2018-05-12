@@ -1,5 +1,8 @@
 #include "ListaProdutos.h"
 #include "stdafx.h"
+
+using namespace std;
+
 //metodos para aplicar a produto
 ListaProdutos::ListaProdutos()
 {

@@ -1,6 +1,8 @@
 #include "Stock.h"
 #include "stdafx.h"
 
+using namespace std;
+
 Stock::Stock(){
     //ctor
 }

@@ -1,6 +1,8 @@
 #include "Objetiva.h"
 #include "stdafx.h"
 
+using namespace std;
+
 Objetiva::Objetiva(){
     //ctor
 }
