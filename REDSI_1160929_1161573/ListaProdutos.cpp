@@ -4,57 +4,46 @@
 using namespace std;
 
 //metodos para aplicar a produto
-ListaProdutos::ListaProdutos()
-{
+ListaProdutos::ListaProdutos(){
     //ctor
 }
 
-ListaProdutos::~ListaProdutos()
-{
+ListaProdutos::~ListaProdutos(){
     //dtor
 }
 
-list<Produto> ListaProdutos::getList()
-{
+list<Produto> ListaProdutos::getList(){
 	return list<Produto>();
 }
 
-bool ListaProdutos::importdata()
-{
+bool ListaProdutos::importdata(){
 	return false;
 }
 
-bool ListaProdutos::insertElement()
-{
+bool ListaProdutos::insertElement(){
 	return false;
 }
 
-bool ListaProdutos::updateElement()
-{
+bool ListaProdutos::updateElement(){
 	return false;
 }
 
-bool ListaProdutos::deleteElement()
-{
+bool ListaProdutos::deleteElement(){
 	return false;
 }
 
-bool ListaProdutos::exportData()
-{
+bool ListaProdutos::exportData(){
 	return false;
 }
 
-bool ListaProdutos::exportInsertData()
-{
+bool ListaProdutos::exportInsertData(){
 	return false;
 }
 
-bool ListaProdutos::exportUpdateData()
-{
+bool ListaProdutos::exportUpdateData(){
 	return false;
 }
 
-bool ListaProdutos::exportDeleteData()
-{
+bool ListaProdutos::exportDeleteData(){
 	return false;
 }
