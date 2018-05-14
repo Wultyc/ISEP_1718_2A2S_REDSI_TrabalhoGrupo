@@ -28,7 +28,6 @@ class ListaObjetivas : public ListaProdutos
 		vector<Objetiva> *insertList;
 		vector<Objetiva> *updateList;
 		vector<Objetiva> *deleteList;
-		bool conditionalSearch;
 		
 };
 

@@ -27,7 +27,6 @@ class ListaProdutos
 		vector<Produto> *insertList;
 		vector<Produto> *updateList;
 		vector<Produto> *deleteList;
-		bool conditionalSearch;
 };
 
 #endif // LISTAPRODUTOS_H

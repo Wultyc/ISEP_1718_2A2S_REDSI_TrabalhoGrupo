@@ -28,7 +28,6 @@ class ListaTripe : public ListaProdutos
 		vector<Tripe> *insertList;
 		vector<Tripe> *updateList;
 		vector<Tripe> *deleteList;
-		bool conditionalSearch;
 
 };
 

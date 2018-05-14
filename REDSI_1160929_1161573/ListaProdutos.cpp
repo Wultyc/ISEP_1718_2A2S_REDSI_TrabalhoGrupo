@@ -17,13 +17,7 @@ ListaProdutos::~ListaProdutos(){
 }*/
 
 bool ListaProdutos::importdata(string conditions) {
-	if (produtos->size() == 0 || conditionalSearch == true || conditions != "") {
-		//Código SQL
-
-		conditionalSearch = (conditions == "") ? true : false;
-		return false;
-	}
-
+	//Código SQL
 	return true;
 }
 

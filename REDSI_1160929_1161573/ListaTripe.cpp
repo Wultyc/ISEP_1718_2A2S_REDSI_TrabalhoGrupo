@@ -16,13 +16,7 @@ vector<Tripe> ListaTripe::getList(){
 }
 
 bool ListaTripe::importdata(string conditions){
-	if (tripes->size() == 0 || conditionalSearch == true || conditions != "") {
-		//Código SQL
-
-		conditionalSearch = (conditions == "") ? true : false;
-		return false;
-	}
-	
+	//Código SQL
 	return true;
 }
 
@@ -51,21 +45,15 @@ bool ListaTripe::exportData(){
 
 bool ListaTripe::exportInsertData(){
 	//Código SQL
-
-	for (int i = 0; i < tripes->size(); i++) {
-		tripes -> push_back(updateList->at(i));
-	}
-
-	return false;
+	return true;
 }
 
 bool ListaTripe::exportUpdateData(){
 	//Código SQL
-	return false;
+	return true;
 }
 
 bool ListaTripe::exportDeleteData(){
 	//Código SQL
-	conditionalSearch = true; //força que seja carregado de novo os dados
-	return false;
+	return true;
 }

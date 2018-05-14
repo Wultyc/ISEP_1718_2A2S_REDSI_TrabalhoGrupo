@@ -28,7 +28,6 @@ class ListaStock : public ListaProdutos
 		vector<Stock> *insertList;
 		vector<Stock> *updateList;
 		vector<Stock> *deleteList;
-		bool conditionalSearch;
 };
 
 #endif // LISTASTOCK_H

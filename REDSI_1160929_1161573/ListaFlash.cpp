@@ -16,13 +16,7 @@ list<Flash> ListaFlash::getList(){
 }
 
 bool ListaFlash::importdata(string conditions) {
-	if (flashs->size() == 0 || conditionalSearch == true || conditions != "") {
-		//Código SQL
-
-		conditionalSearch = (conditions == "") ? true : false;
-		return false;
-	}
-
+	//Código SQL
 	return true;
 }
 
@@ -56,16 +50,10 @@ bool ListaFlash::exportInsertData(){
 
 bool ListaFlash::exportUpdateData(){
 	//Código SQL
-
-	for (int i = 0; i < flashs->size(); i++) {
-		flashs->push_back(updateList->at(i));
-	}
-
 	return false;
 }
 
 bool ListaFlash::exportDeleteData(){
 	//Código SQL
-	conditionalSearch = true; //força que seja carregado de novo os dados
 	return false;
 }

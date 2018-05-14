@@ -16,13 +16,7 @@ list<Objetiva> ListaObjetivas::getList(){
 }
 
 bool ListaObjetivas::importdata(string conditions) {
-	if (objetivas->size() == 0 || conditionalSearch == true || conditions != "") {
-		//Código SQL
-
-		conditionalSearch = (conditions == "") ? true : false;
-		return false;
-	}
-
+	//Código SQL
 	return true;
 }
 
@@ -51,12 +45,6 @@ bool ListaObjetivas::exportData(){
 
 bool ListaObjetivas::exportInsertData(){
 	//Código SQL
-
-	for (int i = 0; i < objetivas->size(); i++) {
-		objetivas->push_back(updateList->at(i));
-	}
-
-
 	return false;
 }
 
@@ -67,6 +55,5 @@ bool ListaObjetivas::exportUpdateData(){
 
 bool ListaObjetivas::exportDeleteData(){
 	//Código SQL
-	conditionalSearch = true; //força que seja carregado de novo os dados
 	return false;
 }

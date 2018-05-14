@@ -28,7 +28,6 @@ class ListaCamaras : public ListaProdutos
 		vector<Camara> *insertList;
 		vector<Camara> *updateList;
 		vector<Camara> *deleteList;
-		bool conditionalSearch;
 };
 
 #endif // LISTACAMARAS_H

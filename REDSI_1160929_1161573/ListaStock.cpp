@@ -16,13 +16,7 @@ list<Stock> ListaStock::getList(){
 }
 
 bool ListaStock::importdata(string conditions) {
-	if (stocks->size() == 0 || conditionalSearch == true || conditions != "") {
-		//Código SQL
-
-		conditionalSearch = (conditions == "") ? true : false;
-		return false;
-	}
-
+	//Código SQL
 	return true;
 }
 
@@ -53,16 +47,10 @@ bool ListaStock::exportInsertData(){
 
 bool ListaStock::exportUpdateData(){
 	//Código SQL
-
-	for (int i = 0; i < stocks->size(); i++) {
-		stocks->push_back(updateList->at(i));
-	}
-
 	return false;
 }
 
 bool ListaStock::exportDeleteData(){
 	//Código SQL
-	conditionalSearch = true; //força que seja carregado de novo os dados
 	return false;
 }

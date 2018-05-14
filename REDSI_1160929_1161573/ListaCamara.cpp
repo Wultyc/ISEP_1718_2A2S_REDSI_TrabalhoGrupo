@@ -16,13 +16,6 @@ list<Camara> ListaCamaras::getList(){
 }
 
 bool ListaCamaras::importdata(string conditions) {
-	if (camaras->size() == 0 || conditionalSearch == true || conditions != "") {
-		//Código SQL
-
-		conditionalSearch = (conditions == "") ? true : false;
-		return false;
-	}
-
 	return true;
 }
 
@@ -37,7 +30,7 @@ bool ListaCamaras::updateElement(Camara *c){
 }
 
 bool ListaCamaras::deleteElement(Camara *c){
-	deleteList->push_back(*t);
+	deleteList->push_back(*c);
 	return false;
 }
 
@@ -65,6 +58,5 @@ bool ListaCamaras::exportUpdateData(){
 
 bool ListaCamaras::exportDeleteData(){
 	//Código SQL
-	conditionalSearch = true; //força que seja carregado de novo os dados
 	return false;
 }

@@ -28,7 +28,6 @@ class ListaFlash : public ListaProdutos
 		vector<Flash> *insertList;
 		vector<Flash> *updateList;
 		vector<Flash> *deleteList;
-		bool conditionalSearch;
 };
 
 #endif // LISTAFLASH_H
