@@ -1,5 +1,4 @@
-#ifndef LISTACAMARAS_H
-#define LISTACAMARAS_H
+#pragma once
 
 #include <string>
 #include <list>
@@ -29,5 +28,3 @@ class ListaCamaras : public ListaProdutos
 		vector<Camara> *updateList;
 		vector<Camara> *deleteList;
 };
-
-#endif // LISTACAMARAS_H

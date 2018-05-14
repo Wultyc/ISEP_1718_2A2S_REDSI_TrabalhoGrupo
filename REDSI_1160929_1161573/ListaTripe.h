@@ -1,5 +1,4 @@
-#ifndef LISTATRIPE_H
-#define LISTATRIPE_H
+#pragma once
 
 #include <string>
 #include <vector>
@@ -31,4 +30,3 @@ class ListaTripe : public ListaProdutos
 
 };
 
-#endif // LISTATRIPE_H

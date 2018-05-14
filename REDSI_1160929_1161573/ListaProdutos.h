@@ -1,5 +1,4 @@
-#ifndef LISTAPRODUTOS_H
-#define LISTAPRODUTOS_H
+#pragma once
 
 #include <string>
 #include <vector>
@@ -28,5 +27,3 @@ class ListaProdutos
 		vector<Produto> *updateList;
 		vector<Produto> *deleteList;
 };
-
-#endif // LISTAPRODUTOS_H

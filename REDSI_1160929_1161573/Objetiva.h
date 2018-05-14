@@ -1,5 +1,4 @@
-#ifndef OBJETIVA_H
-#define OBJETIVA_H
+#pragma once
 
 #include <string>
 #include "Produto.h"
@@ -53,5 +52,3 @@ class Objetiva : public Produto
 		float abr_max;
 		float peso;
 };
-
-#endif // OBJETIVA_H

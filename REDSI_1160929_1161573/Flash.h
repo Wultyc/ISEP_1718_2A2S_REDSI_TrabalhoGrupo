@@ -1,5 +1,4 @@
-#ifndef FLASH_H
-#define FLASH_H
+#pragma once
 
 #include <string>
 #include "Produto.h"
@@ -37,5 +36,3 @@ class Flash : public Produto
 		string modelo;
 		float peso;
 };
-
-#endif // FLASH_H

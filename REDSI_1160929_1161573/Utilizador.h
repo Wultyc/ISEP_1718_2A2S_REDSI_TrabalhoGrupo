@@ -1,5 +1,4 @@
-#ifndef UTILIZADOR_H
-#define UTILIZADOR_H
+#pragma once
 
 #include <string>
 
@@ -50,4 +49,4 @@ class Utilizador
 		int categoria;
 };
 
-#endif // UTILIZADOR_H
+

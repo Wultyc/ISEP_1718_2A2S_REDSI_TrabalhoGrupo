@@ -1,5 +1,4 @@
-#ifndef LOJA_H
-#define LOJA_H
+#pragma once
 
 #include <string>
 #include <list>
@@ -57,4 +56,3 @@ class Loja
 		ListaStock *stocks;
 };
 
-#endif // LOJA_H

@@ -1,5 +1,4 @@
-#ifndef LISTAFLASH_H
-#define LISTAFLASH_H
+#pragma once
 
 #include <string>
 #include <list>
@@ -29,5 +28,3 @@ class ListaFlash : public ListaProdutos
 		vector<Flash> *updateList;
 		vector<Flash> *deleteList;
 };
-
-#endif // LISTAFLASH_H

@@ -1,5 +1,4 @@
-#ifndef LISTAOBJETIVAS_H
-#define LISTAOBJETIVAS_H
+#pragma once
 
 #include <string>
 #include <list>
@@ -30,5 +29,3 @@ class ListaObjetivas : public ListaProdutos
 		vector<Objetiva> *deleteList;
 		
 };
-
-#endif // LISTAOBJETIVAS_H

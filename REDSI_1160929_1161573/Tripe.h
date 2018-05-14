@@ -1,5 +1,4 @@
-#ifndef TRIPE_H
-#define TRIPE_H
+#pragma once
 
 #include <string>
 #include "Produto.h"
@@ -39,4 +38,3 @@ class Tripe : public Produto
 		float peso;
 };
 
-#endif // TRIPE_H

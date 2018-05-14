@@ -1,5 +1,4 @@
-#ifndef PRODUTO_H
-#define PRODUTO_H
+#pragma once
 
 #include <string>
 
@@ -25,5 +24,3 @@ class Produto
 		string modelo;
 		
 };
-
-#endif // PRODUTO_H

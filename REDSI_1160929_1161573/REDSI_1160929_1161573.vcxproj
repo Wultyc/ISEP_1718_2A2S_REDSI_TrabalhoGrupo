@@ -158,6 +158,7 @@
     <ClInclude Include="ListaObjetivas.h" />
     <ClInclude Include="ListaProdutos.h" />
     <ClInclude Include="ListaStock.h" />
+    <ClInclude Include="ListaTrabalhos.h" />
     <ClInclude Include="ListaTripe.h" />
     <ClInclude Include="Login.h" />
     <ClInclude Include="Loja.h" />
@@ -188,6 +189,7 @@
       <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\redsi\redsi_1160929-1161573\mysql-connector-c++-noinstall-1.1.9-win32\include;D:\redsi\redsi_1160929-1161573\boost_1_67_0;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <ClCompile Include="ListaStock.cpp" />
+    <ClCompile Include="ListaTrabalhos.cpp" />
     <ClCompile Include="ListaTripe.cpp" />
     <ClCompile Include="Login.cpp" />
     <ClCompile Include="Loja.cpp" />

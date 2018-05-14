@@ -1,5 +1,4 @@
-#ifndef LOGIN_H
-#define LOGIN_H
+#pragma once
 
 #include <string>
 #include "Utilizador.h"
@@ -30,5 +29,3 @@ class Login
 		string username;
 		string password;
 };
-
-#endif // LOGIN_H

@@ -1,5 +1,4 @@
-#ifndef PESQUISA_H
-#define PESQUISA_H
+#pragma once
 
 #include <string>
 #include <vector>
@@ -28,4 +27,3 @@ class Pesquisa
 		vector<string> param;
 };
 
-#endif // PESQUISA_H

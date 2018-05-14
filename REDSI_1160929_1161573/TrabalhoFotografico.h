@@ -1,5 +1,4 @@
-#ifndef TRABALHOFOTOGRAFICO_H
-#define TRABALHOFOTOGRAFICO_H
+#pragma once
 
 #include <string>
 #include <vector>
@@ -57,4 +56,3 @@ class TrabalhoFotografico
 		int year;
 };
 
-#endif // TRABALHOFOTOGRAFICO_H

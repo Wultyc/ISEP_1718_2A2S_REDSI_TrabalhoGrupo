@@ -1,6 +1,4 @@
-#ifndef CAMARA_H
-#define CAMARA_H
-
+#pragma once
 #include <string>
 #include "Produto.h"
 
@@ -40,5 +38,3 @@ class Camara : public Produto{
 		string sensor;
 		float peso;
 };
-
-#endif // CAMARA_H

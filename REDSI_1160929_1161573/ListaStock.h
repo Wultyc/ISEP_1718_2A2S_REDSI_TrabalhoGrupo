@@ -1,5 +1,4 @@
-#ifndef LISTASTOCK_H
-#define LISTASTOCK_H
+#pragma once
 
 #include <string>
 #include <list>
@@ -29,5 +28,3 @@ class ListaStock : public ListaProdutos
 		vector<Stock> *updateList;
 		vector<Stock> *deleteList;
 };
-
-#endif // LISTASTOCK_H

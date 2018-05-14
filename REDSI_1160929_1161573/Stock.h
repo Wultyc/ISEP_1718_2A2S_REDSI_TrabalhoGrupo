@@ -1,5 +1,4 @@
-#ifndef STOCK_H
-#define STOCK_H
+#pragma once
 
 #include <string>
 #include "Utilizador.h"
@@ -48,4 +47,3 @@ class Stock
 		int unRestantes;
 };
 
-#endif // STOCK_H

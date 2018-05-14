@@ -1,5 +1,4 @@
-﻿  stdafx.cpp
-  Camara.cpp
+﻿  Camara.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\camara.cpp(6): error C2653: 'Camara': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\camara.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\camara.cpp(8): warning C4508: 'Camara': função deve retornar um valor; tipo de retorno 'void' assumido
@@ -194,35 +193,34 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(18): error C2146: erro de sintaxe: ')' ausente antes do identificador 'conditions'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(18): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(18): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(29): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(29): error C2065: 'Camara': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(29): error C2065: 'c': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(29): error C2448: 'insertElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(34): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(34): error C2065: 'Camara': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(34): error C2065: 'c': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(34): error C2448: 'updateElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(39): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(39): error C2065: 'Camara': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(39): error C2065: 'c': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(39): error C2448: 'deleteElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(44): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(46): error C3861: 'exportInsertData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(47): error C3861: 'exportUpdateData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(48): error C3861: 'exportDeleteData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(52): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(57): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(60): error C2065: 'camaras': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(60): error C2227: esquerda de '->size' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(60): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(61): error C2065: 'camaras': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(61): error C2227: esquerda de '->push_back' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(61): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(61): error C2065: 'updateList': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(61): error C2227: esquerda de '->at' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(61): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(66): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(68): error C2065: 'conditionalSearch': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(22): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(22): error C2065: 'Camara': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(22): error C2065: 'c': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(22): error C2448: 'insertElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(27): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(27): error C2065: 'Camara': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(27): error C2065: 'c': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(27): error C2448: 'updateElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(32): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(32): error C2065: 'Camara': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(32): error C2065: 'c': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(32): error C2448: 'deleteElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(37): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(39): error C3861: 'exportInsertData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(40): error C3861: 'exportUpdateData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(41): error C3861: 'exportDeleteData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(45): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(50): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(53): error C2065: 'camaras': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(53): error C2227: esquerda de '->size' deve apontar para tipo class/struct/union/generic
+  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(53): note: tipo é 'unknown-type'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(54): error C2065: 'camaras': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(54): error C2227: esquerda de '->push_back' deve apontar para tipo class/struct/union/generic
+  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(54): note: tipo é 'unknown-type'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(54): error C2065: 'updateList': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(54): error C2227: esquerda de '->at' deve apontar para tipo class/struct/union/generic
+  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(54): note: tipo é 'unknown-type'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listacamara.cpp(59): error C2653: 'ListaCamaras': não é um nome de classe ou de namespace
   ListaFlash.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(6): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
@@ -241,35 +239,25 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(18): error C2146: erro de sintaxe: ')' ausente antes do identificador 'conditions'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(18): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(18): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(29): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(29): error C2065: 'Flash': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(29): error C2065: 'f': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(29): error C2448: 'insertElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(34): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(34): error C2065: 'Flash': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(34): error C2065: 'f': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(34): error C2448: 'updateElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(39): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(39): error C2065: 'Flash': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(39): error C2065: 'f': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(39): error C2448: 'deleteElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(44): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(46): error C3861: 'exportInsertData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(47): error C3861: 'exportUpdateData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(48): error C3861: 'exportDeleteData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(52): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(57): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(60): error C2065: 'flashs': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(60): error C2227: esquerda de '->size' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(60): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(61): error C2065: 'flashs': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(61): error C2227: esquerda de '->push_back' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(61): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(61): error C2065: 'updateList': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(61): error C2227: esquerda de '->at' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(61): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(67): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(69): error C2065: 'conditionalSearch': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(23): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(23): error C2065: 'Flash': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(23): error C2065: 'f': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(23): error C2448: 'insertElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(28): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(28): error C2065: 'Flash': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(28): error C2065: 'f': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(28): error C2448: 'updateElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(33): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(33): error C2065: 'Flash': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(33): error C2065: 'f': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(33): error C2448: 'deleteElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(38): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(40): error C3861: 'exportInsertData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(41): error C3861: 'exportUpdateData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(42): error C3861: 'exportDeleteData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(46): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(51): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaflash.cpp(56): error C2653: 'ListaFlash': não é um nome de classe ou de namespace
   ListaObjetivas.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(6): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
@@ -288,35 +276,25 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(18): error C2146: erro de sintaxe: ')' ausente antes do identificador 'conditions'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(18): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(18): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(29): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(29): error C2065: 'Objetiva': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(29): error C2065: 'o': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(29): error C2448: 'insertElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(34): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(34): error C2065: 'Objetiva': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(34): error C2065: 'o': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(34): error C2448: 'updateElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(39): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(39): error C2065: 'Objetiva': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(39): error C2065: 'o': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(39): error C2448: 'deleteElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(44): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(46): error C3861: 'exportInsertData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(47): error C3861: 'exportUpdateData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(48): error C3861: 'exportDeleteData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(52): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(55): error C2065: 'objetivas': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(55): error C2227: esquerda de '->size' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(55): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(56): error C2065: 'objetivas': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(56): error C2227: esquerda de '->push_back' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(56): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(56): error C2065: 'updateList': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(56): error C2227: esquerda de '->at' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(56): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(63): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(68): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(70): error C2065: 'conditionalSearch': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(23): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(23): error C2065: 'Objetiva': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(23): error C2065: 'o': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(23): error C2448: 'insertElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(28): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(28): error C2065: 'Objetiva': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(28): error C2065: 'o': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(28): error C2448: 'updateElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(33): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(33): error C2065: 'Objetiva': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(33): error C2065: 'o': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(33): error C2448: 'deleteElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(38): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(40): error C3861: 'exportInsertData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(41): error C3861: 'exportUpdateData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(42): error C3861: 'exportDeleteData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(46): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(51): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listaobjetivas.cpp(56): error C2653: 'ListaObjetivas': não é um nome de classe ou de namespace
   ListaStock.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(6): error C2653: 'ListaStock': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
@@ -335,35 +313,26 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(18): error C2146: erro de sintaxe: ')' ausente antes do identificador 'conditions'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(18): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(18): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(29): error C2653: 'ListaStock': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(29): error C2065: 'Stock': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(29): error C2065: 's': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(29): error C2448: 'insertElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(33): error C2653: 'ListaStock': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(33): error C2065: 'Stock': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(33): error C2065: 's': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(33): error C2448: 'updateElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(37): error C2653: 'ListaStock': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(37): error C2065: 'Stock': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(37): error C2065: 's': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(37): error C2448: 'deleteElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(41): error C2653: 'ListaStock': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(43): error C3861: 'exportInsertData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(44): error C3861: 'exportUpdateData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(45): error C3861: 'exportDeleteData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(49): error C2653: 'ListaStock': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(54): error C2653: 'ListaStock': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(57): error C2065: 'stocks': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(57): error C2227: esquerda de '->size' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(57): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(58): error C2065: 'stocks': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(58): error C2227: esquerda de '->push_back' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(58): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(58): error C2065: 'updateList': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(58): error C2227: esquerda de '->at' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(58): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(64): error C2653: 'ListaStock': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(66): error C2065: 'conditionalSearch': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(23): error C2653: 'ListaStock': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(23): error C2065: 'Stock': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(23): error C2065: 's': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(23): error C2448: 'insertElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(27): error C2653: 'ListaStock': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(27): error C2065: 'Stock': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(27): error C2065: 's': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(27): error C2448: 'updateElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(31): error C2653: 'ListaStock': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(31): error C2065: 'Stock': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(31): error C2065: 's': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(31): error C2448: 'deleteElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(35): error C2653: 'ListaStock': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(37): error C3861: 'exportInsertData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(38): error C3861: 'exportUpdateData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(39): error C3861: 'exportDeleteData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(43): error C2653: 'ListaStock': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(48): error C2653: 'ListaStock': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(53): error C2653: 'ListaStock': não é um nome de classe ou de namespace
+  ListaTrabalhos.cpp
   ListaTripe.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(6): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
@@ -382,35 +351,25 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(18): error C2146: erro de sintaxe: ')' ausente antes do identificador 'conditions'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(18): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(18): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(29): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(29): error C2065: 'Tripe': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(29): error C2065: 't': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(29): error C2448: 'insertElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(34): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(34): error C2065: 'Tripe': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(34): error C2065: 't': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(34): error C2448: 'updateElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(39): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(39): error C2065: 'Tripe': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(39): error C2065: 't': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(39): error C2448: 'deleteElement': inicializador function-style parece ser uma definição de função
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(44): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(46): error C3861: 'exportInsertData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(47): error C3861: 'exportUpdateData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(48): error C3861: 'exportDeleteData': identificador não encontrado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(52): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(55): error C2065: 'tripes': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(55): error C2227: esquerda de '->size' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(55): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(56): error C2065: 'tripes': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(56): error C2227: esquerda de '->push_back' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(56): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(56): error C2065: 'updateList': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(56): error C2227: esquerda de '->at' deve apontar para tipo class/struct/union/generic
-  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(56): note: tipo é 'unknown-type'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(62): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(67): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(69): error C2065: 'conditionalSearch': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(23): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(23): error C2065: 'Tripe': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(23): error C2065: 't': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(23): error C2448: 'insertElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(28): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(28): error C2065: 'Tripe': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(28): error C2065: 't': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(28): error C2448: 'updateElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(33): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(33): error C2065: 'Tripe': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(33): error C2065: 't': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(33): error C2448: 'deleteElement': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(38): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(40): error C3861: 'exportInsertData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(41): error C3861: 'exportUpdateData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(42): error C3861: 'exportDeleteData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(46): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(51): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(56): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
   Login.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\login.cpp(6): error C2653: 'Login': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\login.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
@@ -454,77 +413,93 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\login.cpp(39): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\login.cpp(39): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\login.cpp(43): error C2653: 'Login': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\login.cpp(44): error C2065: 'user': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\login.cpp(44): error C2061: erro de sintaxe: identificador 'Utilizador'
   Loja.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(6): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(7): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(9): warning C4508: 'Loja': função deve retornar um valor; tipo de retorno 'void' assumido
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(11): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(12): error C2084: função 'int Loja(void)' já possui um corpo
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(8): warning C4508: 'Loja': função deve retornar um valor; tipo de retorno 'void' assumido
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(10): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(10): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(10): error C2084: função 'int Loja(void)' já possui um corpo
   c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(6): note: consulte a definição anterior de 'Loja'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(16): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(16): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(16): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getPesquisa'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(17): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(17): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(21): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(21): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(21): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getLogin_ativo'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(22): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(22): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(26): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(26): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(26): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getCamaras'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(14): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(14): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(14): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getPesquisa'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(14): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(14): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(18): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(18): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(18): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getLogin_ativo'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(19): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(19): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(23): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(23): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(23): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getCamaras'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(23): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(23): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(27): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(27): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(27): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getObjetivas'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(27): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(27): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(31): error C2653: 'Loja': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(31): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(31): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getObjetivas'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(32): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(32): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(36): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(36): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(36): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getFlashs'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(37): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(37): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(41): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(41): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(41): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getTripes'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(42): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(42): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(31): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getFlashs'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(31): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(31): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(35): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(35): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(35): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getTripes'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(35): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(35): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(39): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(39): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(39): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getStocks'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(39): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(39): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(43): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(43): error C2146: erro de sintaxe: ')' ausente antes do identificador 'p'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(43): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(43): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(46): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(46): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(46): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getStocks'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(47): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(47): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(51): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(51): error C2146: erro de sintaxe: ')' ausente antes do identificador 'p'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(46): error C2146: erro de sintaxe: ')' ausente antes do identificador 'la'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(46): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(46): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(49): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(49): error C2146: erro de sintaxe: ')' ausente antes do identificador 'lc'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(49): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(49): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(52): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(52): error C2146: erro de sintaxe: ')' ausente antes do identificador 'lo'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(52): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(52): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(55): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(55): error C2146: erro de sintaxe: ')' ausente antes do identificador 'la'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(56): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(56): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(59): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(59): error C2146: erro de sintaxe: ')' ausente antes do identificador 'lc'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(60): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(60): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(63): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(63): error C2146: erro de sintaxe: ')' ausente antes do identificador 'lo'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(55): error C2146: erro de sintaxe: ')' ausente antes do identificador 'lf'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(55): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(55): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(58): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(58): error C2146: erro de sintaxe: ')' ausente antes do identificador 'lt'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(58): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(58): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(61): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(61): error C2146: erro de sintaxe: ')' ausente antes do identificador 'ls'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(61): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(61): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(64): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(64): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(64): error C2086: 'int Login': redefinição
+  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(18): note: consulte a declaração de 'Login'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(64): error C2146: erro de sintaxe: ';' ausente antes do identificador 'newLogin'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(64): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(64): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(67): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(67): error C2146: erro de sintaxe: ')' ausente antes do identificador 'lf'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(68): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(68): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(71): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(71): error C2146: erro de sintaxe: ')' ausente antes do identificador 'lt'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(72): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(72): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(75): error C2653: 'Loja': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(75): error C2146: erro de sintaxe: ')' ausente antes do identificador 'ls'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(76): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(76): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(69): error C2653: 'Loja': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(69): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(69): error C2086: 'int Pesquisa': redefinição
+  c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(14): note: consulte a declaração de 'Pesquisa'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(69): error C2146: erro de sintaxe: ';' ausente antes do identificador 'newSearch'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(69): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\loja.cpp(69): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
   Objetiva.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\objetiva.cpp(6): error C2653: 'Objetiva': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\objetiva.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
@@ -652,6 +627,26 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(12): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(12): error C2084: função 'int Pesquisa(void)' já possui um corpo
   c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(6): note: consulte a definição anterior de 'Pesquisa'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(16): error C2653: 'Pesquisa': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(16): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(16): error C2146: erro de sintaxe: ';' ausente antes do identificador 'getTipo'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(16): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(16): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(20): error C2143: erro de sintaxe: ';' ausente antes de '<'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(20): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(20): error C2653: 'Pesquisa': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(21): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(21): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(25): error C2653: 'Pesquisa': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(25): error C2146: erro de sintaxe: ')' ausente antes do identificador 't'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(25): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(25): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(29): error C2653: 'Pesquisa': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(29): error C2065: 'p': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(29): warning C4804: '>': uso não seguro de tipo 'bool' em operação
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(29): error C2182: 'setParam': uso inválido de tipo 'void'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(29): error C2448: 'setParam': inicializador function-style parece ser uma definição de função
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\pesquisa.cpp(33): error C2653: 'Pesquisa': não é um nome de classe ou de namespace
   Produto.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\produto.cpp(6): error C2653: 'Produto': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\produto.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
@@ -955,6 +950,11 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\tripe.cpp(86): error C2059: erro de sintaxe: '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\tripe.cpp(86): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\tripe.cpp(86): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+  UC1_Controller.cpp
+  UC1_View.cpp
+  UC2_Controller.cpp
+  Compilando...
+  UC2_View.cpp
   Utilizador.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(6): error C2653: 'Utilizador': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
@@ -1056,10 +1056,13 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(110): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(110): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(124): error C2653: 'Utilizador': não é um nome de classe ou de namespace
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(124): error C2065: 'u': identificador não declarado
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(124): error C2563: incompatibilidade na lista de parâmetros formais
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(124): error C2143: erro de sintaxe: ';' ausente antes de 'const'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(124): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(124): error C2059: erro de sintaxe: '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(124): error C2143: erro de sintaxe: ';' ausente antes de '{'
-c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(124): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(126): error C3861: 'getUserData': identificador não encontrado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(130): error C2653: 'Utilizador': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(135): error C2653: 'Utilizador': não é um nome de classe ou de namespace
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(135): error C2065: 'u': identificador não declarado
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(135): error C2563: incompatibilidade na lista de parâmetros formais
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(135): error C2143: erro de sintaxe: ';' ausente antes de 'const'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(135): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(135): error C2059: erro de sintaxe: '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(135): error C2143: erro de sintaxe: ';' ausente antes de '{'
+c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(135): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
