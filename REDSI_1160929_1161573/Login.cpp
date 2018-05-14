@@ -41,5 +41,7 @@ void Login::setPassword(string pw){
 }
 
 bool Login::validateLogin(){
-	return false;
+	user = new Utilizador();
+
+	return true;
 }

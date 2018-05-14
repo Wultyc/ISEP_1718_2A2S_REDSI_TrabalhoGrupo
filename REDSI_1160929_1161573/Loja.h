@@ -39,19 +39,21 @@ class Loja
 		void getTripes(ListaTripe lt);
 		void getStocks(ListaStock ls);
 
+		Login newLogin();
+
     private:
 		//Pesquisa
-		Pesquisa pesquisa;
+		Pesquisa *pesquisa;
 
 		//Login Ativo
-		Login login_ativo;
+		Login *login_ativo;
 
 		//Listas
-		ListaCamaras camaras;
-		ListaObjetivas objetivas;
-		ListaFlash flashs;
-		ListaTripe tripes;
-		ListaStock stocks;
+		ListaCamaras *camaras;
+		ListaObjetivas *objetivas;
+		ListaFlash *flashs;
+		ListaTripe *tripes;
+		ListaStock *stocks;
 };
 
 #endif // LOJA_H

@@ -75,6 +75,12 @@
     <ClInclude Include="Utilizador.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="UC1_Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC1_View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -132,6 +138,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Utilizador.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC1_Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC1_View.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -35,6 +35,9 @@ class Utilizador
 		string toStringFull();
 		string toStringCons();
 
+		bool importProfile(int id);
+		bool getUserData();
+
 		bool operator == (Utilizador *u) const;
 
     private:

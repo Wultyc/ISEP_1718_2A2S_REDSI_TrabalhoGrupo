@@ -3,18 +3,15 @@
 
 using namespace std;
 
-Loja::Loja()
-{
+Loja::Loja(){
     //ctor
 }
 
-Loja::~Loja()
-{
+Loja::~Loja(){
     //dtor
 }
 
-Pesquisa Loja::getPesquisa()
-{
+Pesquisa Loja::getPesquisa(){
 	return Pesquisa();
 }
 
@@ -23,55 +20,48 @@ Login Loja::getLogin_ativo()
 	return Login();
 }
 
-ListaCamaras Loja::getCamaras()
-{
+ListaCamaras Loja::getCamaras(){
 	return ListaCamaras();
 }
 
-ListaObjetivas Loja::getObjetivas()
-{
+ListaObjetivas Loja::getObjetivas(){
 	return ListaObjetivas();
 }
 
-ListaFlash Loja::getFlashs()
-{
+ListaFlash Loja::getFlashs(){
 	return ListaFlash();
 }
 
-ListaTripe Loja::getTripes()
-{
+ListaTripe Loja::getTripes(){
 	return ListaTripe();
 }
 
-ListaStock Loja::getStocks()
-{
+ListaStock Loja::getStocks(){
 	return ListaStock();
 }
 
-void Loja::getPesquisa(Pesquisa p)
-{
+void Loja::getPesquisa(Pesquisa p){
 }
 
-void Loja::getLogin_ativo(Login la)
-{
+void Loja::getLogin_ativo(Login la){
 }
 
-void Loja::getCamaras(ListaCamaras lc)
-{
+void Loja::getCamaras(ListaCamaras lc){
 }
 
-void Loja::getObjetivas(ListaObjetivas lo)
-{
+void Loja::getObjetivas(ListaObjetivas lo){
 }
 
-void Loja::getFlashs(ListaFlash lf)
-{
+void Loja::getFlashs(ListaFlash lf){
 }
 
-void Loja::getTripes(ListaTripe lt)
-{
+void Loja::getTripes(ListaTripe lt){
 }
 
-void Loja::getStocks(ListaStock ls)
-{
+void Loja::getStocks(ListaStock ls){
+}
+
+Login Loja::newLogin(){
+	login_ativo = new Login();
+	return *login_ativo;
 }

@@ -121,6 +121,17 @@ string Utilizador::toStringCons(){
 	return r;
 }
 
+bool Utilizador::importProfile(int id){
+	setID(id);
+	getUserData();
+	return false;
+}
+
+bool Utilizador::getUserData(){
+	//Código SQL para captar o perfil do utilizador
+	return false;
+}
+
 bool Utilizador::operator==(Utilizador *u) const{
 	return (id == u->getID()) ? true : false;
 }
