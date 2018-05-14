@@ -4,6 +4,7 @@
 
 UC1_View::UC1_View(Loja *l){
 	loja = l;
+	c = new UC1_Controller(l);
 }
 
 

@@ -11,6 +11,7 @@
 #include "ListaTripe.h"
 #include "ListaFlash.h"
 #include "ListaStock.h"
+#include "ListaTrabalhos.h"
 
 using namespace std;
 
@@ -28,15 +29,17 @@ class Loja
 		ListaFlash getFlashs();
 		ListaTripe getTripes();
 		ListaStock getStocks();
+		ListaTrabalhos getTrabalhos();
 
 		//set
-		void getPesquisa(Pesquisa p);
-		void getLogin_ativo(Login la);
-		void getCamaras(ListaCamaras lc);
-		void getObjetivas(ListaObjetivas lo);
-		void getFlashs(ListaFlash lf);
-		void getTripes(ListaTripe lt);
-		void getStocks(ListaStock ls);
+		void setPesquisa(Pesquisa *p);
+		void setLogin_ativo(Login *la);
+		void setCamaras(ListaCamaras *lc);
+		void setObjetivas(ListaObjetivas *lo);
+		void setFlashs(ListaFlash *lf);
+		void setTripes(ListaTripe *lt);
+		void setStocks(ListaStock *ls);
+		void setTrabalhos(ListaTrabalhos *ls);
 
 		Login newLogin();
 		Pesquisa newSearch();
@@ -54,5 +57,6 @@ class Loja
 		ListaFlash *flashs;
 		ListaTripe *tripes;
 		ListaStock *stocks;
+		ListaTrabalhos *trabalhos;
 };
 

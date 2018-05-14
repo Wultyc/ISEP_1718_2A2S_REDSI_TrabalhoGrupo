@@ -332,7 +332,6 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(43): error C2653: 'ListaStock': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(48): error C2653: 'ListaStock': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listastock.cpp(53): error C2653: 'ListaStock': não é um nome de classe ou de namespace
-  ListaTrabalhos.cpp
   ListaTripe.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(6): error C2653: 'ListaTripe': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\listatripe.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
@@ -682,7 +681,6 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\produto.cpp(31): error C2059: erro de sintaxe: '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\produto.cpp(31): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\produto.cpp(31): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-  REDSI_1160929_1161573.cpp
   Stock.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\stock.cpp(6): error C2653: 'Stock': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\stock.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int
@@ -950,11 +948,6 @@ c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_116157
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\tripe.cpp(86): error C2059: erro de sintaxe: '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\tripe.cpp(86): error C2143: erro de sintaxe: ';' ausente antes de '{'
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\tripe.cpp(86): error C2447: '{': faltando cabeçalho de função (lista formal de estilo antigo?)
-  UC1_Controller.cpp
-  UC1_View.cpp
-  UC2_Controller.cpp
-  Compilando...
-  UC2_View.cpp
   Utilizador.cpp
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(6): error C2653: 'Utilizador': não é um nome de classe ou de namespace
 c:\users\hp\desktop\2ºsemestre\redsi\redsi_1160929-1161573\redsi_1160929_1161573\utilizador.cpp(6): error C4430: faltando especificador de tipo - int assumido. Observação: C++ não suporta default-int

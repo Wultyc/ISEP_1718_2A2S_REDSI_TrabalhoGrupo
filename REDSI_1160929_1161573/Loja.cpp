@@ -12,53 +12,64 @@ Loja::~Loja(){
 }
 
 Pesquisa Loja::getPesquisa(){
-	return Pesquisa();
+	return *pesquisa;
 }
 
 Login Loja::getLogin_ativo()
 {
-	return Login();
+	return *login_ativo;
 }
 
 ListaCamaras Loja::getCamaras(){
-	return ListaCamaras();
+	return *camaras;
 }
 
 ListaObjetivas Loja::getObjetivas(){
-	return ListaObjetivas();
+	return *objetivas;
 }
 
 ListaFlash Loja::getFlashs(){
-	return ListaFlash();
+	return *flashs;
 }
 
 ListaTripe Loja::getTripes(){
-	return ListaTripe();
+	return *tripes;
 }
 
 ListaStock Loja::getStocks(){
-	return ListaStock();
+	return *stocks;
 }
 
-void Loja::getPesquisa(Pesquisa p){
+ListaTrabalhos Loja::getTrabalhos(){
+	return *trabalhos;
 }
 
-void Loja::getLogin_ativo(Login la){
+void Loja::setPesquisa(Pesquisa *p){
+	pesquisa = p;
 }
 
-void Loja::getCamaras(ListaCamaras lc){
+void Loja::setLogin_ativo(Login *la){
+	login_ativo = la;
 }
 
-void Loja::getObjetivas(ListaObjetivas lo){
+void Loja::setCamaras(ListaCamaras *lc){
+	camaras = lc;
 }
 
-void Loja::getFlashs(ListaFlash lf){
+void Loja::setObjetivas(ListaObjetivas *lo){
+	objetivas = lo;
 }
 
-void Loja::getTripes(ListaTripe lt){
+void Loja::setFlashs(ListaFlash *lf){
+	flashs = lf;
 }
 
-void Loja::getStocks(ListaStock ls){
+void Loja::setTripes(ListaTripe *lt){
+	tripes = lt;
+}
+
+void Loja::setStocks(ListaStock *ls){
+	stocks = ls;
 }
 
 Login Loja::newLogin(){
