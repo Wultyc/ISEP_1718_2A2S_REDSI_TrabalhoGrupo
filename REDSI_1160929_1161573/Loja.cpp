@@ -65,3 +65,8 @@ Login Loja::newLogin(){
 	login_ativo = new Login();
 	return *login_ativo;
 }
+
+Pesquisa Loja::newSearch(){
+	pesquisa = new Pesquisa();
+	return *pesquisa;
+}

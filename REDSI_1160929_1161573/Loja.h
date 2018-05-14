@@ -40,6 +40,7 @@ class Loja
 		void getStocks(ListaStock ls);
 
 		Login newLogin();
+		Pesquisa newSearch();
 
     private:
 		//Pesquisa
