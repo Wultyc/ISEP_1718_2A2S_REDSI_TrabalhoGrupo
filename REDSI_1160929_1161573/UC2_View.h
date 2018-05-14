@@ -15,7 +15,6 @@ public:
 private:
 	Loja *loja;
 	UC2_Controller *c;
-	string tipo;
-	vector<string> *param;
+
 };
 

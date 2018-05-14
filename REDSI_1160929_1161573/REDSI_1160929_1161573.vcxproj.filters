@@ -96,6 +96,36 @@
     <ClInclude Include="ListaTrabalhos.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="UC4_Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC4_View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC5_Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC5_View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC6_Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC6_View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC7_Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC7_View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC8_Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC8_View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -174,6 +204,36 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ListaTrabalhos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC4_Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC4_View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC5_Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC5_View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC6_Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC6_View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC7_Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC7_View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC8_Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC8_View.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

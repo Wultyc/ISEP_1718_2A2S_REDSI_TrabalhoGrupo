@@ -176,6 +176,16 @@
     <ClInclude Include="UC2_View.h" />
     <ClInclude Include="UC3_Controller.h" />
     <ClInclude Include="UC3_View.h" />
+    <ClInclude Include="UC4_Controller.h" />
+    <ClInclude Include="UC4_View.h" />
+    <ClInclude Include="UC5_Controller.h" />
+    <ClInclude Include="UC5_View.h" />
+    <ClInclude Include="UC6_Controller.h" />
+    <ClInclude Include="UC6_View.h" />
+    <ClInclude Include="UC7_Controller.h" />
+    <ClInclude Include="UC7_View.h" />
+    <ClInclude Include="UC8_Controller.h" />
+    <ClInclude Include="UC8_View.h" />
     <ClInclude Include="Utilizador.h" />
   </ItemGroup>
   <ItemGroup>
@@ -212,6 +222,16 @@
     <ClCompile Include="UC2_View.cpp" />
     <ClCompile Include="UC3_Controller.cpp" />
     <ClCompile Include="UC3_View.cpp" />
+    <ClCompile Include="UC4_Controller.cpp" />
+    <ClCompile Include="UC4_View.cpp" />
+    <ClCompile Include="UC5_Controller.cpp" />
+    <ClCompile Include="UC5_View.cpp" />
+    <ClCompile Include="UC6_Controller.cpp" />
+    <ClCompile Include="UC6_View.cpp" />
+    <ClCompile Include="UC7_Controller.cpp" />
+    <ClCompile Include="UC7_View.cpp" />
+    <ClCompile Include="UC8_Controller.cpp" />
+    <ClCompile Include="UC8_View.cpp" />
     <ClCompile Include="Utilizador.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

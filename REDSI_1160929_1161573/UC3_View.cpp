@@ -21,7 +21,7 @@ void UC3_View::start(){
 	cout << "Selecione uma camara." << endl;
 
 	for (auto it = lc->begin(); it != lc->end(); ) {
-		it->toString(true);
+		cout << it->toString(true);
 	}
 	cout << "Insira o ID: ";
 	cin >> opt;
@@ -33,7 +33,7 @@ void UC3_View::start(){
 	cout << "Selecione as objetiva. envie -1 quando terminar" << endl; 
 
 	for (auto it = lo->begin(); it != lo->end(); ) {
-		it->toString(true);
+		cout << it->toString(true);
 	}
 	
 	while (opt != -1) {
@@ -48,7 +48,7 @@ void UC3_View::start(){
 	cout << "Selecione os tripes. envie -1 quando terminar" << endl;
 
 	for (auto it = lt->begin(); it != lt->end(); ) {
-		it->toString(true);
+		cout << it->toString(true);
 	}
 
 	while (opt != -1) {
@@ -63,7 +63,7 @@ void UC3_View::start(){
 	cout << "Selecione os flashs. envie -1 quando terminar" << endl;
 
 	for (auto it = lf->begin(); it != lf->end(); ) {
-		it->toString(true);
+		cout << it->toString(true);
 	}
 
 	while (opt != -1) {
