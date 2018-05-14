@@ -11,8 +11,9 @@ ListaStock::~ListaStock(){
     //dtor
 }
 
-/*list<Produto> ListaStock::getList(){
-}*/
+list<Stock> ListaStock::getList(){
+	return *stocks;
+}
 
 bool ListaStock::importdata(string conditions) {
 	if (stocks->size() == 0 || conditionalSearch == true || conditions != "") {
@@ -62,5 +63,6 @@ bool ListaStock::exportUpdateData(){
 
 bool ListaStock::exportDeleteData(){
 	//Código SQL
+	conditionalSearch = true; //força que seja carregado de novo os dados
 	return false;
 }

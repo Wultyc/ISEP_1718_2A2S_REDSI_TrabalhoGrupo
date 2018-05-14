@@ -11,8 +11,9 @@ ListaCamaras::~ListaCamaras(){
     //dtor
 }
 
-/*list<Produto> ListaCamaras::getList(){
-}*/
+list<Camara> ListaCamaras::getList(){
+	return *camaras;
+}
 
 bool ListaCamaras::importdata(string conditions) {
 	if (camaras->size() == 0 || conditionalSearch == true || conditions != "") {
@@ -64,5 +65,6 @@ bool ListaCamaras::exportUpdateData(){
 
 bool ListaCamaras::exportDeleteData(){
 	//Código SQL
+	conditionalSearch = true; //força que seja carregado de novo os dados
 	return false;
 }

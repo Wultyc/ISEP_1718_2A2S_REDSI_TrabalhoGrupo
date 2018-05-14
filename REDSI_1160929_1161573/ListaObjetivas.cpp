@@ -11,8 +11,9 @@ ListaObjetivas::~ListaObjetivas(){
     //dtor
 }
 
-/*list<Produto> ListaObjetivas::getList(){
-}*/
+list<Objetiva> ListaObjetivas::getList(){
+	return *objetivas;
+}
 
 bool ListaObjetivas::importdata(string conditions) {
 	if (objetivas->size() == 0 || conditionalSearch == true || conditions != "") {
@@ -66,5 +67,6 @@ bool ListaObjetivas::exportUpdateData(){
 
 bool ListaObjetivas::exportDeleteData(){
 	//Código SQL
+	conditionalSearch = true; //força que seja carregado de novo os dados
 	return false;
 }

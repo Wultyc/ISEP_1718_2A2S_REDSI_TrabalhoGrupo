@@ -25,19 +25,19 @@ Utilizador TrabalhoFotografico::getUtilizador()
 	return *utilizador;
 }
 
-list<Objetiva> TrabalhoFotografico::getobjetivas()
+vector<Objetiva> TrabalhoFotografico::getobjetivas()
 {
-	return objetivas;
+	return *objetivas;
 }
 
-list<Flash> TrabalhoFotografico::getflashs()
+vector<Flash> TrabalhoFotografico::getflashs()
 {
-	return flashs;
+	return *flashs;
 }
 
-list<Tripe> TrabalhoFotografico::gettripes()
+vector<Tripe> TrabalhoFotografico::gettripes()
 {
-	return tripes;
+	return *tripes;
 }
 
 string TrabalhoFotografico::getDate()

@@ -11,8 +11,9 @@ ListaFlash::~ListaFlash(){
     //dtor
 }
 
-/*list<Produto> ListaFlash::getList(){
-}*/
+list<Flash> ListaFlash::getList(){
+	return *flashs;
+}
 
 bool ListaFlash::importdata(string conditions) {
 	if (flashs->size() == 0 || conditionalSearch == true || conditions != "") {
@@ -65,5 +66,6 @@ bool ListaFlash::exportUpdateData(){
 
 bool ListaFlash::exportDeleteData(){
 	//Código SQL
+	conditionalSearch = true; //força que seja carregado de novo os dados
 	return false;
 }

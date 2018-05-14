@@ -12,12 +12,19 @@ ListaProdutos::~ListaProdutos(){
     //dtor
 }
 
-list<Produto> ListaProdutos::getList(){
+/*vector<Produto> ListaProdutos::getList(){
 	return list<Produto>();
-}
+}*/
 
-bool ListaProdutos::importdata(){
-	return false;
+bool ListaProdutos::importdata(string conditions) {
+	if (produtos->size() == 0 || conditionalSearch == true || conditions != "") {
+		//Código SQL
+
+		conditionalSearch = (conditions == "") ? true : false;
+		return false;
+	}
+
+	return true;
 }
 
 bool ListaProdutos::insertElement(){

@@ -2,7 +2,7 @@
 #define LISTAPRODUTOS_H
 
 #include <string>
-#include <list>
+#include <vector>
 #include "Produto.h"
 
 class ListaProdutos
@@ -11,7 +11,7 @@ class ListaProdutos
         ListaProdutos();
         virtual ~ListaProdutos();
 
-		virtual list<Produto> getList(); //tem de se mudar o tipo de dados
+		//virtual vector<Produto> getList(); //tem de se mudar o tipo de dados
 		virtual bool importdata(string conditions);
 		virtual bool insertElement();
 		virtual bool updateElement();
@@ -22,6 +22,11 @@ class ListaProdutos
 		virtual bool exportDeleteData();
 
     private:
+		bool conditionalSearch;
+		vector<Produto> *produtos;
+		vector<Produto> *insertList;
+		vector<Produto> *updateList;
+		vector<Produto> *deleteList;
 		bool conditionalSearch;
 };
 

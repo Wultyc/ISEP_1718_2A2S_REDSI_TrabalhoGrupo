@@ -13,7 +13,7 @@ class ListaTripe : public ListaProdutos
     public:
         ListaTripe();
         virtual ~ListaTripe();
-		//vector<Produto> getList();
+		vector<Tripe> getList();
 		bool importdata(string conditions);
 		bool insertElement(Tripe *t);
 		bool updateElement(Tripe *t);

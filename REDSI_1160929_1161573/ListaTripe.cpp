@@ -11,9 +11,9 @@ ListaTripe::~ListaTripe(){
     //dtor
 }
 
-/*vector<Produto> ListaTripe::getList(){
+vector<Tripe> ListaTripe::getList(){
 	return *tripes;
-}*/
+}
 
 bool ListaTripe::importdata(string conditions){
 	if (tripes->size() == 0 || conditionalSearch == true || conditions != "") {
@@ -66,5 +66,6 @@ bool ListaTripe::exportUpdateData(){
 
 bool ListaTripe::exportDeleteData(){
 	//Código SQL
+	conditionalSearch = true; //força que seja carregado de novo os dados
 	return false;
 }

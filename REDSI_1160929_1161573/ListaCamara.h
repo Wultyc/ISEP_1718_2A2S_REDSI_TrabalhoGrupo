@@ -14,7 +14,7 @@ class ListaCamaras : public ListaProdutos
     public:
         ListaCamaras();
         virtual ~ListaCamaras();
-		//list<Produto> getList(); //tem de se mudar o tipo de dados
+		list<Camara> getList(); //tem de se mudar o tipo de dados
 		bool importdata(string conditions);
 		bool insertElement(Camara *c);
 		bool updateElement(Camara *c);

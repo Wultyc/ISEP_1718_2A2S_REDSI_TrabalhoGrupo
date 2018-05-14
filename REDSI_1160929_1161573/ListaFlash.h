@@ -14,7 +14,7 @@ class ListaFlash : public ListaProdutos
     public:
         ListaFlash();
         virtual ~ListaFlash();
-		//list<Produto> getList(); //tem de se mudar o tipo de dados
+		list<Flash> getList(); //tem de se mudar o tipo de dados
 		bool importdata(string conditions);
 		bool insertElement(Flash *f);
 		bool updateElement(Flash *f);
