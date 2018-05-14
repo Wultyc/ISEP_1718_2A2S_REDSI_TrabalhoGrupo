@@ -11,7 +11,7 @@ ListaFlash::~ListaFlash(){
     //dtor
 }
 
-list<Flash> ListaFlash::getList(){
+vector<Flash> ListaFlash::getList(){
 	return *flashs;
 }
 

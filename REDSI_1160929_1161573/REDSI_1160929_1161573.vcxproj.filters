@@ -81,6 +81,18 @@
     <ClInclude Include="UC1_View.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="UC2_Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC2_View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC3_Controller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UC3_View.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -144,6 +156,18 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="UC1_View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC2_Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC2_View.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC3_Controller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UC3_View.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

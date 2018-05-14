@@ -11,7 +11,7 @@ ListaCamaras::~ListaCamaras(){
     //dtor
 }
 
-list<Camara> ListaCamaras::getList(){
+vector<Camara> ListaCamaras::getList(){
 	return *camaras;
 }
 

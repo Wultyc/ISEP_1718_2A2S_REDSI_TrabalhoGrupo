@@ -11,7 +11,7 @@ ListaObjetivas::~ListaObjetivas(){
     //dtor
 }
 
-list<Objetiva> ListaObjetivas::getList(){
+vector<Objetiva> ListaObjetivas::getList(){
 	return *objetivas;
 }
 

@@ -14,7 +14,7 @@ class ListaStock : public ListaProdutos
     public:
         ListaStock();
         virtual ~ListaStock();
-		list<Stock> getList(); //tem de se mudar o tipo de dados
+		vector<Stock> getList(); //tem de se mudar o tipo de dados
 		bool importdata(string conditions);
 		bool insertElement(Stock *s);
 		bool updateElement(Stock *s);
@@ -24,7 +24,7 @@ class ListaStock : public ListaProdutos
 		bool exportUpdateData();
 		bool exportDeleteData();
     private:
-		list<Stock> *stocks;
+		vector<Stock> *stocks;
 		vector<Stock> *insertList;
 		vector<Stock> *updateList;
 		vector<Stock> *deleteList;

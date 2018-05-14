@@ -14,7 +14,7 @@ class ListaCamaras : public ListaProdutos
     public:
         ListaCamaras();
         virtual ~ListaCamaras();
-		list<Camara> getList(); //tem de se mudar o tipo de dados
+		vector<Camara> getList(); //tem de se mudar o tipo de dados
 		bool importdata(string conditions);
 		bool insertElement(Camara *c);
 		bool updateElement(Camara *c);
@@ -24,7 +24,7 @@ class ListaCamaras : public ListaProdutos
 		bool exportUpdateData();
 		bool exportDeleteData();
     private:
-		list<Camara> *camaras;
+		vector<Camara> *camaras;
 		vector<Camara> *insertList;
 		vector<Camara> *updateList;
 		vector<Camara> *deleteList;

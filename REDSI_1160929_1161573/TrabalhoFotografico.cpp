@@ -17,7 +17,7 @@ int TrabalhoFotografico::getID() {
 
 Camara TrabalhoFotografico::getcamara()
 {
-	return camara;
+	return *camara;
 }
 
 Utilizador TrabalhoFotografico::getUtilizador()

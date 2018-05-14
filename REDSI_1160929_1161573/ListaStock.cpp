@@ -11,7 +11,7 @@ ListaStock::~ListaStock(){
     //dtor
 }
 
-list<Stock> ListaStock::getList(){
+vector<Stock> ListaStock::getList(){
 	return *stocks;
 }
 

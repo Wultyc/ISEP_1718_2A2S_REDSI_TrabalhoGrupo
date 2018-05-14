@@ -171,6 +171,10 @@
     <ClInclude Include="Tripe.h" />
     <ClInclude Include="UC1_Controller.h" />
     <ClInclude Include="UC1_View.h" />
+    <ClInclude Include="UC2_Controller.h" />
+    <ClInclude Include="UC2_View.h" />
+    <ClInclude Include="UC3_Controller.h" />
+    <ClInclude Include="UC3_View.h" />
     <ClInclude Include="Utilizador.h" />
   </ItemGroup>
   <ItemGroup>
@@ -202,6 +206,10 @@
     <ClCompile Include="Tripe.cpp" />
     <ClCompile Include="UC1_Controller.cpp" />
     <ClCompile Include="UC1_View.cpp" />
+    <ClCompile Include="UC2_Controller.cpp" />
+    <ClCompile Include="UC2_View.cpp" />
+    <ClCompile Include="UC3_Controller.cpp" />
+    <ClCompile Include="UC3_View.cpp" />
     <ClCompile Include="Utilizador.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

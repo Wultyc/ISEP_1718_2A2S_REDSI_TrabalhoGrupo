@@ -14,7 +14,7 @@ class ListaObjetivas : public ListaProdutos
     public:
         ListaObjetivas();
 		virtual ~ListaObjetivas();
-		list<Objetiva> getList(); //tem de se mudar o tipo de dados
+		vector<Objetiva> getList(); //tem de se mudar o tipo de dados
 		bool importdata(string conditions);
 		bool insertElement(Objetiva *o);
 		bool updateElement(Objetiva *o);
@@ -24,7 +24,7 @@ class ListaObjetivas : public ListaProdutos
 		bool exportUpdateData();
 		bool exportDeleteData();
     private:
-		list<Objetiva> *objetivas;
+		vector<Objetiva> *objetivas;
 		vector<Objetiva> *insertList;
 		vector<Objetiva> *updateList;
 		vector<Objetiva> *deleteList;
