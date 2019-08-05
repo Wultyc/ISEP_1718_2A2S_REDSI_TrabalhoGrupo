@@ -1,5 +1,7 @@
 # redsi_1160929-1161573
-Trabalho relaizado na Unidade Curricular Redes e Sistemas de Informação durante o ano letivo 2017/2018
+Trabalho relaizado na Unidade Curricular Redes e Sistemas de Informação durante o ano letivo 2017/2018  
+O projeto constiu na aplicação em C++ de catalgo de material fotografico.
+
 ### Professor Orientador ###
 Alberto Sampaio  
 David Pereira
